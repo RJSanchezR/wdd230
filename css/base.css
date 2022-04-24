@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #27B2B9;
+    color: white;
+}
+
+header, footer, main {
+    max-width: 36rem; /* Base font size is 16px * 36 = 576 */
+    margin: 0 auto; /* center from left to right */
+    padding: 2rem;
+    border: 5px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#profile-pic {
+    width: 150px;
+    height: auto;
+}
