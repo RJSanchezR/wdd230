@@ -13,17 +13,32 @@ header, footer, main {
     max-width: 36rem; /* Base font size is 16px * 36 = 576 */
     margin: 0 auto; /* center from left to right */
     padding: 2rem;
-    border: 5px solid red;
+    border: none;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
     flex-wrap: wrap;
 }
 
 #profile-pic {
     width: 150px;
     height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.list li{
+    padding: .3em 0;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
 }
