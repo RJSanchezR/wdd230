@@ -26,17 +26,20 @@ header, footer, main {
 }
 
 header {
+    margin-top: .5em;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
     flex-wrap: wrap;
+    box-shadow: 5px 5px 10px #595a55;
 }
 
 #profile-pic {
     width: 150px;
     height: auto;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #595a55;
 }
 
 h1 {
@@ -58,4 +61,6 @@ footer {
     text-align: center;
     border-radius: 10px;
     font-family: 'Cinzel', serif;
+    box-shadow: 5px 5px 10px #595a55;
+    margin-bottom: 1em;
 }
