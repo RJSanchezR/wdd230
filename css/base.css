@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Merriweather:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    padding: 0;    
+}
+
 header, footer {
-    background-color: #27B2B9;
+    background-color: #008F81;
     color: white;
 }
 
@@ -27,10 +36,17 @@ header {
 #profile-pic {
     width: 150px;
     height: auto;
+    border-radius: 10px;
 }
 
 h1 {
     text-align: center;
+    font-weight: lighter;
+}
+
+main {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
 }
 
 .list li{
@@ -41,4 +57,5 @@ footer {
     display: block;
     text-align: center;
     border-radius: 10px;
+    font-family: 'Cinzel', serif;
 }
