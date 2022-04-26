@@ -13,11 +13,6 @@ body {
     padding: 0;    
 }
 
-header, footer {
-    background-color: #008F81;
-    color: white;
-}
-
 header, footer, main {
     max-width: 36rem; /* Base font size is 16px * 36 = 576 */
     margin: 0 auto; /* center from left to right */
@@ -33,6 +28,8 @@ header {
     border-radius: 10px;
     flex-wrap: wrap;
     box-shadow: 5px 5px 10px #595a55;
+    background-color: #008F81;
+    color: white;
 }
 
 #profile-pic {
@@ -63,4 +60,6 @@ footer {
     font-family: 'Cinzel', serif;
     box-shadow: 5px 5px 10px #595a55;
     margin-bottom: 1em;
+    background-color: #016158;
+    color: white;
 }
