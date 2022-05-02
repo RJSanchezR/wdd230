@@ -60,8 +60,9 @@ h4 {
 }
 
 img {
-    max-width: 95%;
+    max-width: 100%;
     display: block;
+    padding: 0;
     margin: auto;
     margin-bottom: 32px;
     justify-content: center;
