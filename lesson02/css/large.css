@@ -24,8 +24,8 @@ h1 {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    width: 90%;
+    grid-gap: 25px;
+    width: 95%;
     margin: 20px auto;
 }
 
@@ -48,7 +48,7 @@ h3 {
 }
 
 article > div {
-    padding: 0 2em;
+    padding: 0 1em;
 }
 
 h4 {
@@ -59,10 +59,11 @@ h4 {
     margin-bottom: 26px;
 }
 
-article img {
-    max-width: 12em;
-    display: flex;
+img {
+    max-width: 95%;
+    display: block;
     margin: auto;
+    margin-bottom: 32px;
     justify-content: center;
 }
 
