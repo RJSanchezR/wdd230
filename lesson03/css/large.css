@@ -19,13 +19,34 @@ header {
     overflow: hidden; */
 }
 
-.topnav {
+.topnav ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
     background-color:#0D3B66;
     align-items: center;
     padding: 12px;
+}
+
+.topnav li {
+    flex: 1 1 auto;
+}
+
+.topnav a {
+    display: block;
+    padding: 0.8rem 1rem;
+    margin: 12px 0;
+    text-decoration: none;
+    color: #f8f8f8;
+} 
+
+.topnav a:hover {
+    background-color: #CBBA00;
+    color: #f8f8f8;
+}
+
+.topnav a:active {
+    color: #f8f8f8;
 }
 
 h1 {
@@ -101,4 +122,13 @@ footer {
     color: #f8f8f8;
 }
 
+@media screen and (min-width: 48rem) {
+    .topnav ul {
+        flex-direction:row;
+        justify-content: space-around;
+    }
 
+    .flex-main {
+        flex-direction: row;
+    }
+}
