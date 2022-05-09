@@ -67,6 +67,7 @@ nav {
 .active {
     background-color: #008F81;
     border-radius: 15px;
+    font-weight: bold;
 }
 
 .topnav .icon {
