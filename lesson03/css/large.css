@@ -1,11 +1,16 @@
 * {
     font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     max-width: 1024px;
     margin: 0 auto;
     background-color: #f8f8f8;
+    /* margin-top: 60px;
+    padding: 0;   */
 }
 
 header {
@@ -13,10 +18,15 @@ header {
     background-color: #008F81;
     border-radius: 10px;
     color: #f8f8f8;
-    padding: 1.5em;
+    padding: 1.5rem;
     /* position: fixed;
     top: 0;
     overflow: hidden; */
+}
+
+nav {
+    border-radius: 10px;
+    padding: 0;
 }
 
 .topnav ul{
@@ -30,6 +40,11 @@ header {
 
 .topnav li {
     flex: 1 1 auto;
+}
+
+.topnav li:first-child {
+    flex: 2 1 auto;
+    align-content: center;
 }
 
 .topnav a {
@@ -49,47 +64,79 @@ header {
     color: #f8f8f8;
 }
 
+.active {
+    background-color: #008F81;
+}
+
+.topnav .icon {
+    display: none;
+}
+
 h1 {
+    font-size: 2.3rem;
     margin-bottom: 0.69em;
-    color: #CBBA00;
+    color: #f8f8f8;
+    justify-content: center;
+    align-self: center;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 25px;
-    width: 95%;
-    margin: 20px auto;
-}
-
-article {
-    border-radius: 10px;
-    background-color: #f8f8f8;
-    border: solid 2px #0D3B66;
-    overflow: hidden;
-    font-family: 'Zen Maru Gothic', sans-serif;
-    font-size: 20px;
+.flex-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
 }
 
 section {
+    background-color: #f8f8f8;
     font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.logo {
+    max-width: 30%;
+    padding-top: 1rem;
+    margin: auto;
+    margin-bottom: 32px;
+    justify-content: center;
+}
+
+
+.faces {
+    max-width: 30%;
+    padding-top: 1rem;
+    margin: auto;
+    margin-bottom: 32px;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 1.2rem;
 }
 
 h3 {
-    margin: 0;
+    max-width: 30%;
+    border-radius: 10px;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 1.3em;
-    padding: 1.2em;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: .2rem;
     background: #016158;
     color: #f8f8f8;
 }
 
-article > div {
-    padding: 0 1em;
+h4 {
+    font-size: 1.1rem;
+    padding: 1rem;
 }
 
-h4 {
-    font-size: 1.2em;
+main ul {
+    font-size: 1.1rem;
+    padding: .3rem 1rem .3rem;
+    margin: 1rem 1rem 1rem 2rem;
 }
 
 .links {
@@ -106,16 +153,23 @@ img {
 
 p {
     font-family: 'Zen Maru Gothic', sans-serif;
+    padding: 1rem;
+    font-weight: bold;
 }
 
-footer {
+.flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
     text-align: center;
     background-color: #0D3B66;
     color: #CBBA00;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 600;
     border-radius: 10px 10px 0 0;
-    padding: 1.2em;
+    padding: 1.2rem;
 }
 
 #myname {
