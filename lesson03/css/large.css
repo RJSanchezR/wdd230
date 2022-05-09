@@ -14,11 +14,23 @@ header {
     border-radius: 10px;
     color: #f8f8f8;
     padding: 1.5em;
+    /* position: fixed;
+    top: 0;
+    overflow: hidden; */
+}
+
+.topnav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color:#0D3B66;
+    align-items: center;
+    padding: 12px;
 }
 
 h1 {
     margin-bottom: 0.69em;
-    color: #ecd909;
+    color: #CBBA00;
 }
 
 main {
@@ -32,10 +44,14 @@ main {
 article {
     border-radius: 10px;
     background-color: #f8f8f8;
-    border: solid 2px #060F88;
+    border: solid 2px #0D3B66;
     overflow: hidden;
     font-family: 'Zen Maru Gothic', sans-serif;
     font-size: 20px;
+}
+
+section {
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 h3 {
@@ -61,17 +77,20 @@ h4 {
 
 img {
     max-width: 100%;
-    display: block;
     padding: 0;
     margin: auto;
     margin-bottom: 32px;
     justify-content: center;
 }
 
+p {
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
 footer {
     text-align: center;
-    background-color: #016158;
-    color: #ecd909;
+    background-color: #0D3B66;
+    color: #CBBA00;
     font-size: 1.2em;
     font-weight: 600;
     border-radius: 10px 10px 0 0;
@@ -81,3 +100,5 @@ footer {
 #myname {
     color: #f8f8f8;
 }
+
+
