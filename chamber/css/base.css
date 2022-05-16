@@ -4,6 +4,56 @@
     box-sizing: border-box;
 }
 
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.social {
+	margin-right: 1.5rem;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
+}
+
+
+
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -39,6 +89,34 @@ nav {
 	background-color: #0D3B66;
 }
 
+.flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    background-color: #0D3B66;
+    color: #CBBA00;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    padding: 1.2rem;
+}
+
+footer img {
+	width: 80px;
+	height: auto;
+}
+
+footer a {
+	color:#f8f8f8
+}
+
+#myname {
+    color: #f8f8f8;
+}
+
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
@@ -54,6 +132,22 @@ section {
     min-height: 200px;
 }
 
+/* Larger viewports for the header*/
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: 0.9rem;
+	}
+}
 
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
@@ -61,7 +155,7 @@ section {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* change state in small view */
+		display: block; 
 		flex: 1 1 auto;
 	}
 	.navigation a {
