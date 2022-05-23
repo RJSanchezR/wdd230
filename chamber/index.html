@@ -7,33 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The main page for the Rexburg Chamber of Commerce project" />
 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap"
         rel="stylesheet">
-
-    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
-    <link rel="stylesheet" type="text/css" href="css/large.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/medium.css" /> -->
+    
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/medium.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
 
     <title>Rexburg Chamber of Commerce | WDD 230</title>
 </head>
 
 <body>
     <header>
+
         <div class="logo">
-            <img src="images/logo.png" alt="Rexburg Chamber of Commer logo" />
+            <a href="#"><img src="images/logo.png" alt="Rexburg Chamber of Commerce logo" /></a>
             <section class="headings">
-                <h1>Rexburg</h1>
-                <h2 class="m">Chamber of Commerce</h2>
+                <h2 class="header-title">Rexburg</h2>
+                <h3 class="header-subtitle">Chamber of Commerce</h3>
             </section>
         </div>
-        <div class="socials">
-            <a href="https://facebook.com"></a>
-            <a href="https://twitter.com"></a>
-        </div>
+
         <nav>
             <ul class="navigation">
                 <li><a class="ham" href="#"></a></li>
@@ -43,38 +44,111 @@
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <!-- <button class="hamburger hamburger--arrow is-active" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner">&#9776;</span>
+                </span>
+            </button> -->
         </nav>
-        <div class="date"></div>
-    </header>
-    <main class="grid-main">
-        <div class="main-grid">
-            <div class="event">event</div>
-            <div class="weather">weather</div>
-            <div class="join">join</div>
-            <div class="hero">hero with call to action</div>
-            <div class="news">news release</div>
-            <div class="spotlight_1">spotlight 1</div>
-            <div class="spotlight_2">spotlight 2</div>
-            <div class="spotlight_3">spotlight 3</div>
+
+        <div class="socials">
+            <a href="https://facebook.com"><img class="social-icon" src="images/facebook-logo-24.png" alt="Facebook" ></a>
+            <a href="https://twitter.com"><img class="social-icon" src="images/twitter-icon-24.png" alt="Facebook" ></a>
         </div>
+
+        <div class="date"><span id="todayDate"></span></div>
+
+        <div class="banner"><h2 class="banner-text">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
+    </header>
+
+    <main class="grid-main">
+        
+        <div class="hero-main">
+            <img class="hero-image" src="images/hero-rexburg.jpg" alt="Rexburg, Idaho">
+            <h1 class="hero-title">Welcome to Rexburg</h1>
+            <button class="hero-button">Join the Chamber</button>
+        </div>
+        
+        <div class="event">
+            <h2 class="event-title">AYCE Competition</h2>
+            <h3 class="event-org">The Hickory</h3>
+            <p class="event-info">We will be hosting an All You Can Eat competition of meats this Saturday at 6:00 p.m. <span class="event-more">more info...</span></p>
+        </div>
+
+        <div class="weather">
+            <h2 class="weather-title">Weather</h2>
+            <img class="weather-image" src="images/rainy-day.png" alt="A cloud and rain" width="75" height="75">
+            <h3 class="weather-temp">33 &#176;c</h3>
+            <p class="weather-sky">Partly Cloudy</p>
+            <hr class="weather-div">
+            <p class="weather-windSpeed">Wind Speed: </p>
+            <p class="weather-windSpeed-val">2.5 km/h</p>
+            <p class="weather-windChill">Wind Chill: </p>
+            <p class="weather-windChill-val">N/A</p>
+        </div>
+
+        <div class="news">
+            <h2 class="news-title">News Release</h2>
+            <p class="news-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quas numquam nobis 
+                autem obcaecati exercitationem libero magni tenetur consequatur quod, rem in 
+                sequi perferendis velit rerum hic ab ut facere?</p>
+        </div>
+
+        <div class="join">
+            <button class="join-us"><strong>Join Us!</strong></button>
+            <p class="joinSectionText">Discover how to join the chamber of commerce and how it will
+                benefit your organization!</p>
+        </div>
+        
+        <div class="spotlight">
+            <div class="spotlight-1">
+                <h2 class="spotlight-title">Crispy Cones</h2>
+                <img class="spotlight-image" src="images/crispy-cones-logo.png" alt="Crispy Cones Icon" width="100" height="100">
+                <p class="spotlight-slogan">As tasty as they look.</p>
+                <hr class="spotlight-div">
+                <p class="spotlight-info">contact@crispycones.com <br>(208) 907-6269 <br> https://www.czechcrispycones.com</p>
+            </div>
+            <div class="spotlight-2">
+                <h2 class="spotlight-title">Clair & Dee's Point S</h2>
+                <img class="spotlight-image" src="images/point-s-logo.png" alt="Poin S logo" width="100" height="100">
+                <p class="spotlight-slogan">We share this community with you.</p>
+                <hr class="spotlight-div">
+                <p class="spotlight-info">contact@pointstire.com <br>(208) 356-7371 <br> https://www.pointstire.com/rexburg</p>
+            </div>
+            <div class="spotlight-3">
+                <h2 class="spotlight-title">Circle of Love</h2>
+                <img class="spotlight-image" src="images/Circle-of-Love-Logo.png" alt="Circle of Love logo" width="85" height="85">
+                <p class="spotlight-slogan">Everyone wants to look classy and unforgettable.</p>
+                <hr class="spotlight-div">
+                <p class="spotlight-info">contact@crispycones.com <br>(208) 356-0058 <br> https://www.mycircleoflove.com/</p>
+            </div>
+        </div>
+
     </main>
     <footer class="grid-footer">
+
         <section class="chamber-info">
-            <img src="images/logo.png" alt="Rexburg Chamber of Commer logo" />
-            <p>Rexburg Chamber of Commerce</p>
-            <p>167  W. Main St. Ste. 2</p>
-            <p>Rexburg, ID</p>
+            <img class="footer-logo" src="images/logo.png" alt="Rexburg Chamber of Commer logo" width="100" height="100"/>
+            <section class="chamber-address">
+                <h2>Rexburg Chamber of Commerce</h2>
+                <p>167  W. Main St. Ste. 2</p>
+                <p>Rexburg, ID</p>
+            </section>
         </section>
+        
         <section class="contact-info">
             <p>info@rexburgchamb.org</p>
             <p>+(208) 496-1411</p>
             <a href="map">Location Map</a>
         </section>
+        
         <section class="my-info">
             <p>&copy; <span id="currentYear"></span> Rexburg Chamber | <span id="myname">Rodrigo Sanchez</span> | WDD 230 Project | Last Updated: <span id="lastmod"></span></p>
         </section>
     </footer>
+
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
