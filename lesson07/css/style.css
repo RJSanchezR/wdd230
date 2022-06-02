@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
 }
 
 img[data-src] {
@@ -11,7 +16,27 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 0.5s;
-    border: 3px solid blue;
+    border: 2px solid black;
     max-width: 100%;
     height: auto;
+}
+
+img:hover {
+    box-shadow: 10px 10px 20px rgb(1, 66, 83);
+}
+
+@media screen and (min-width:56rem) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width:90rem) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 92rem;
+        margin: auto;
+    }
+
 }
