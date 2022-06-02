@@ -30,7 +30,7 @@
         <div class="logo">
             <a href="#"><img src="images/logo.png" alt="Rexburg Chamber of Commerce logo" /></a>
             <section class="headings">
-                <h2 class="header-title">Rexburg</h2>
+                <h2 class="header-title">REXBURG</h2>
                 <h3 class="header-subtitle">Chamber of Commerce</h3>
             </section>
         </div>
@@ -52,8 +52,8 @@
         </nav>
 
         <div class="socials">
-            <a href="https://facebook.com"><img class="social-icon" src="images/facebook-logo-24.png" alt="Facebook" ></a>
-            <a href="https://twitter.com"><img class="social-icon" src="images/twitter-icon-24.png" alt="Facebook" ></a>
+            <a href="https://facebook.com"><img class="social-icon" src="images/facebook-icon.png" alt="Facebook" ></a>
+            <a href="https://twitter.com"><img class="social-icon" src="images/twitter-icon.png" alt="Facebook" ></a>
         </div>
 
         <div class="date"><span id="todayDate"></span></div>
@@ -66,7 +66,10 @@
     <main class="grid-main">
         
         <div class="hero-main">
-            <img class="hero-image" src="images/hero-rexburg.jpg" alt="Rexburg, Idaho">
+            <figure>
+                <img class="hero-image" src="images/hero-rexburg.jpg" alt="Rexburg, Idaho">            
+            </figure>
+    
             <h1 class="hero-title">Welcome to Rexburg</h1>
             <button class="hero-button">Join the Chamber</button>
         </div>
@@ -80,13 +83,13 @@
         <div class="weather">
             <h2 class="weather-title">Weather</h2>
             <img class="weather-image" src="images/rainy-day.png" alt="A cloud and rain" width="75" height="75">
-            <h3 class="weather-temp">33 &#176;c</h3>
+            <h3><span class="weather-temp">33 </span>&#176;C</h3>
             <p class="weather-sky">Partly Cloudy</p>
             <hr class="weather-div">
             <p class="weather-windSpeed">Wind Speed: </p>
-            <p class="weather-windSpeed-val">2.5 km/h</p>
+            <p><span class="weather-windSpeed-val">2.5 </span>Km/h</p>
             <p class="weather-windChill">Wind Chill: </p>
-            <p class="weather-windChill-val">N/A</p>
+            <p class="weather-windChill-val"></p>
         </div>
 
         <div class="news">
@@ -150,6 +153,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 
 </body>
 
