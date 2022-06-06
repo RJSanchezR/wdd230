@@ -1,26 +1,60 @@
 @media screen and (min-width: 900px) {
 
     body {
-        margin: auto;
         font-size: 1.125rem;
     }
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .date {
+        grid-column: 1/7;
+        justify-self: center;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    .logo {
+        grid-column: 1/3;
+        padding: .7rem 0;
+    }
+
+    nav {
+        grid-column: 3/6;
+    }
+
+    .navigation {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigation li{
+        display: contents;
+    }
+
+    .socials {
+        grid-column: 6/7;
+    }
+
+    .banner {
+        grid-column: 1/7;
+        justify-self: center;
+    }
+
     main {
-        max-width: 1200px;
-        justify-items: center;
-        align-items: center;
-        gap: 1rem;
-        text-align: center;
+        max-width: 1400px;
         background-color: #f8f8f8;
         color: black;
-        font-size: 1.2rem;
-        font-weight: 600;
-        border-radius: 10px 10px 0 0;
-        padding: 1rem;
         margin: auto;
     }
 
     .grid-main {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
     }
     
     .hero-main {
@@ -28,15 +62,23 @@
         grid-row: 1/3;
         order: 2;
     }
+
+    .hero-image {
+        width: 100%;
+        height: 100%;
+    }
+
     .news {
         grid-column: 2/3;
         order: 6;
     }
+    
     .join {
         display: block;
         grid-column: 1/2;
         order: 5;
     }
+    
     .event {
         grid-column: 1/2;
         order: 1;
@@ -108,7 +150,7 @@
 }
 
 /* Larger viewports for the header*/
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 601px) {
 	header img {
 		width: 100%;
 	}
@@ -124,19 +166,7 @@
 	}
 }
 
-/* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; 
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
+.my-info { 
+    grid-column: 1/3;
+    display: flex; 
 }
