@@ -1,3 +1,5 @@
+// For the last visit
+
 let lastVisitDate;
 const ahora = Date.now();
 
