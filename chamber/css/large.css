@@ -120,6 +120,15 @@
         max-width: 100%;
     }
 
+    /* .last-text {
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    .last-pic {
+        display: flex;
+    } */
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;

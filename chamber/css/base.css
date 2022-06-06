@@ -20,6 +20,7 @@ h4,
 h5,
 h6 {
     font-family: 'Titillium Web', sans-serif;
+    padding: 1rem;
 }
 
 header {
@@ -182,7 +183,7 @@ main {
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
     text-align: center;
     color: #CBBA00;
     font-size: 1.2rem;
@@ -196,7 +197,7 @@ main {
     min-height: 200px;
     color: #f8f8f8;
     background-color: #0D3B66;
-    padding: 1em;
+    padding: 1rem .5rem;
     border: 1px solid black;
 }
 
