@@ -177,124 +177,55 @@ nav {
     padding: .8rem 0;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    align-items: center;
-    gap: .5rem;
+table {
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px #769BB2;
+}
+
+.tableLabel {
+    background-color: #7FB9C2;
+}
+
+.tableHead {
+    font-size: 1.75em;
+}
+
+.colLabel {
+    color: #FFFAF2;
+    font-size: 1.15em;
+}
+
+.targetMet {
+    color: #FFFAF2;
+    background-color: #628CA6;
+}
+
+.colSpanTwo {
     text-align: center;
-    color: #CBBA00;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-radius: 10px 10px 0 0;
-    padding: 1rem;
 }
 
-.grid-main div {
-    min-width: 100%;
-    min-height: 200px;
-    color: #f8f8f8;
-    background-color: #0D3B66;
-    padding: 1rem .5rem;
-    border: 1px solid black;
+.tableFoot {
+    font-size: .75em;
+    font-weight: unset;
 }
 
-.hero-main {
-    position: relative;
-    display: flex;
-    padding: 0;
-    width: auto;
-    height: auto;
-    max-height: 500px;
-    max-width: 700px;
+tr:nth-child(odd){
+    background-color: #E7F0ED;
 }
 
-.hero-image {
-    width: 100%;
-    height: 100%;
-    flex: 1 1 auto;
+tr:nth-child(even) {
+    background-color: #E7FFED;
 }
 
-.hero-title {
-    position: absolute;
-    margin: 0px;
-    left: .5em;
-    top: .75em;
-    color: black;
-    text-shadow: 0 0 20px black;
-    font-size: 3rem;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
+th {
+    background-color: #628CA6;
 }
 
-.hero-button {
-    position: absolute;
-    flex: 1 1 auto;
-    bottom: 1.5rem;
-    right: 2.5rem;
-    padding: .5em 1em;
-    margin: auto;
-    min-width: 200px;
-    color: #f8f8f8;
-    background-color: #CBBA00;
-    font-weight: bold;
-    border: 2px solid #0D3B66;
-    border-radius: 15px;
-}
-
-.weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 50%;
-    height: auto;
-    justify-self: center;
-}
-
-.weather-image {
-    justify-self: right;
-}
-
-.join {
-    display: none;
-}
-
-.spotlight-1 {
-    box-shadow: 0px 0px 20px #0D3B66;
-}
-
-.spotlights div img {
-    width: 50%;
-    height: auto;
-}
-
-.spotlight-image {
-    background-color: #f8f8f8a8;
-    border-radius: 10px;
-    margin: .2rem;
-    padding: .2rem;
-}
-
-.spotlight-3 {
-    display: none;
-}
-
-.spotlight-div {
-    margin: .5rem;
-}
-
-.spotlight-info {
-    font-size: 1rem;
-    padding: .2rem;
-}
-
-a.spotlight-info:link, a.spotlight-info:visited {
-    color: #008F81;
-    text-decoration: none;
-}
-
-a.spotlight-info:hover {
-    text-decoration: underline;
+th, td {
+    border: 1px solid #ABB3B7;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 10px;
+    text-align: center;
 }
 
 footer {
