@@ -177,6 +177,11 @@ nav {
     padding: .8rem 0;
 }
 
+main {
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 table {
     border-collapse: collapse;
     box-shadow: 10px 10px 10px #769BB2;
