@@ -90,10 +90,6 @@ nav {
     justify-content: flex-start;
 }
 
-.active {
-    background-color: #CBBA00;
-}
-
 .navigation {
     list-style: none;
     padding: 0;
@@ -111,6 +107,11 @@ nav {
     color: #f8f8f8;
     font-weight: bold;
     transition: 0.5s;
+}
+
+.navigation .active {
+    text-decoration: overline .2rem;
+    text-decoration-color: #CBBA00;
 }
 
 .responsive li {
