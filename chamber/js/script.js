@@ -23,21 +23,6 @@ const fulldate = new Intl.DateTimeFormat("en-US", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-// For the Banner that shows on Mondays and Tuesdays
-
-const banner = document.querySelector(".banner");
-const d = new Date();
-// let day = d.getDay();
-
-if (d.getDay() == 1 || d.getDay() == 2) {
-    banner.style.display = "block";
-	console.log('block')
-}
-else {
-    banner.style.display = "none";
-	console.log('none')
-}
-
 // For Lazy Loading images
 
 const imagesToLoad = document.querySelectorAll("img[data-src]")
@@ -71,4 +56,13 @@ if("IntersectionObserver" in window) {
     imagesToLoad.forEach((img) => {
         loadImages(img);
       });
+}
+
+const day = new Date();
+const social = document.querySelector(".socials")
+// let day = d.getDay();
+
+if (day.getDay() == 1 || day.getDay() == 2) {
+	console.log('small')
+    social.classList.toggle('socials-small')
 }
