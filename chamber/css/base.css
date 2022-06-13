@@ -57,7 +57,9 @@ header {
     align-items: center;
     justify-items: center;
     margin-left: .5rem;
+    color: #f8f8f8;
     text-align: left;
+    text-decoration: none;
 }
 
 .header-title {
@@ -151,6 +153,14 @@ nav {
     grid-column: 4/5;
 }
 
+.socials-small {
+    grid-row: 2/3;
+}
+
+.socials-index {
+    grid-row: 3/4;
+}
+
 .social-icon {
     margin: .5rem;
     width: 36px;
@@ -194,7 +204,6 @@ main {
 
 .grid-main div {
     min-width: 100%;
-    min-height: 200px;
     color: #f8f8f8;
     background-color: #0D3B66;
     padding: 1rem .5rem;
@@ -213,7 +222,7 @@ main {
 
 .hero-image {
     width: 100%;
-    height: 100%;
+    height: auto;
     flex: 1 1 auto;
 }
 
@@ -324,6 +333,150 @@ footer a {
 
 #myname {
     color: #f8f8f8;
+}
+
+/* For the Join */
+
+.grid-join {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.join-title h1 {
+    color: #f8f8f8;
+    background-color: #0D3B66;
+    text-align: center;
+    padding: .5rem 1rem;
+    margin: 0;
+}
+
+fieldset:first-child {
+    margin-bottom: 10px;
+}
+
+fieldset:nth-child(2) {
+    margin-top: 10px;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: #0D3B66;
+}
+
+legend {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #CBBA00;
+}
+
+form label,
+form input {
+    display: block;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+form input {
+    margin-top: 2px;
+    margin-bottom: 1em;
+    /* size for small view */
+    padding: .75rem;
+    border-radius: 10px;
+}
+
+label input {
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+
+form label.required::after {
+    content: " *";
+    color: red;
+}
+
+form input:required {
+    border-bottom: 4px solid red;
+}
+
+form input:required:valid {
+    border-bottom: 4px solid green;
+}
+
+.businessDescription {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.membershipLabel {
+    margin-bottom: 5px;
+}
+
+.radioMember {
+    margin: 5px 0;
+}
+
+.required {
+    content: " *";
+}
+
+.joinSubmitBtn {
+    background-color: #ADD8E6;
+    margin-top: 16px;
+}
+
+.membershipDescription {
+    border: 2px solid #484041;
+    width: 320px;
+    margin: 10px auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.membershipHeader {
+    text-align: center;
+}
+
+.membershipSub {
+    text-align: center;
+}
+
+.bronze {
+    background-color: #cd7f32;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.silver {
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.gold {
+    background-color: #FFDF00;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.thanksHeading {
+    text-align: center;
+}
+
+.thanksSection {
+    text-align: center;
+    /* border: 2px solid #484041; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
