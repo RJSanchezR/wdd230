@@ -401,13 +401,13 @@ form label.required::after {
     color: red;
 }
 
-form input:required {
+form input:required:invalid {
     background-color: rgba(255, 0, 0, 0.275);
 }
-/* 
+
 form input:required:valid {
-    border-bottom: 4px solid green;
-} */
+    background-color: rgba(0, 128, 0, 0.011);
+}
 
 .businessDescription {
     margin-top: 10px;
