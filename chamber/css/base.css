@@ -388,7 +388,6 @@ form input {
     margin-bottom: 1em;
     /* size for small view */
     padding: .75rem;
-    border-radius: 10px;
 }
 
 label input {
@@ -403,12 +402,12 @@ form label.required::after {
 }
 
 form input:required {
-    border-bottom: 4px solid red;
+    background-color: rgba(255, 0, 0, 0.275);
 }
-
+/* 
 form input:required:valid {
     border-bottom: 4px solid green;
-}
+} */
 
 .businessDescription {
     margin-top: 10px;
@@ -428,7 +427,8 @@ form input:required:valid {
 }
 
 .joinSubmitBtn {
-    background-color: #ADD8E6;
+    font-weight: bold;
+    background-color: #008F81;
     margin-top: 16px;
 }
 
@@ -448,7 +448,7 @@ form input:required:valid {
     text-align: center;
 }
 
-.bronze {
+/* .bronze {
     background-color: #cd7f32;
     border-radius: 10px;
     padding: 0 5px;
@@ -464,7 +464,7 @@ form input:required:valid {
     background-color: #FFDF00;
     border-radius: 10px;
     padding: 0 5px;
-}
+} */
 
 .thanksHeading {
     text-align: center;

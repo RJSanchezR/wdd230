@@ -68,7 +68,7 @@
         </div>
 
         <form method="get" action="thankyou.html">
-            <fieldset>
+            <fieldset class="app-info">
                 <legend>Applicant Information</legend>
                 
                 <label for="fname" class="required">First Name: </label>
@@ -87,13 +87,27 @@
                 <input type="tel" name="cellPhones" id="cellPhone" required placeholder="123-890-4567" pattern="\d{3}-\d{3}-\d{4}">
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bus-info">
                 <legend>Business Information</legend>
 
                 <label for="businessName" class="required">Business Name/Title: </label>
                 <input type="text" name="businessName" id="businessName" required>
 
-                <label class="membershipLabel">Choose a Membership: </label>
+                <label for="businessDescription" class="businessDescription">Business Description: </label>
+                <textarea name="businessDescription" id="businessDescription" cols="29" rows="5"></textarea>
+
+                <input type="hidden" name="submissionDate" id="submissionDate" hidden>
+
+                <!-- the onclick causes the hidden field to send the date upon submission -->
+                <input type="submit" value="Join Us" onclick="sendDate()" class="joinSubmitBtn">
+
+            </fieldset>
+
+        </form>
+        <form method="get" action="thankyou.html">
+            <fieldset class="membership-info">
+                <legend>Memberships</legend>
+                
                 <label>
                     <input type="radio" name="membershipLevel" value="npMembership" class="radioMember">
                     NP Membership
@@ -110,38 +124,24 @@
                     <input type="radio" name="membershipLevel" value="goldMembership" class="radioMember">
                     Gold Membership
                 </label>
-
-                <label for="businessDescription" class="businessDescription">Business Description: </label>
-                <textarea name="businessDescription" id="businessDescription" cols="29" rows="5"></textarea>
-
-                <input type="hidden" name="submissionDate" id="submissionDate" hidden>
-
-                <!-- the onclick causes the hidden field to send the date upon submission -->
-                <input type="submit" value="Join The Chamber" onclick="sendDate()" class="joinSubmitBtn">
-
+                <h2 class="membershipHeader">Membership Levels</h2>
+                <h3 class="membershipSub">NP Membership</h3>
+                <p>Free subscription: Enjoy connection to community members and free access to all of our public services.</p>
+                <h3 class="membershipSub"><span class="bronze">Bronze Membership</span></h3>
+                <p>$100 Entry Fee: All benefits offered to NP Members with the added bonus of monthly trainings, 
+                    and 10% discounts on all chambers advertising.
+                </p>
+                <h3 class="membershipSub"><span class="silver">Silver Membership</span></h3>
+                <p>$200 Entry Fee: All benefits from previous levels with additional access to Chambers of Moria homepage spotlight
+                    and added 15% discounts on all advertising and future commissions.
+                </p>
+                <h3 class="membershipSub"><span class="gold">Gold Membership</span></h3>
+                <p>$300 Entry Fee: Access to all membership benefits. Includes access to weekly online trainings, full access to 
+                    the Chamber of Moria's networking and contacts, exclusive access to coming events, and first pick
+                    on all advertising opportunities with added 20% discounts.
+                </p>
             </fieldset>
-
         </form>
-
-        <section class="membershipDescription">
-            <h2 class="membershipHeader">Membership Levels</h2>
-            <h3 class="membershipSub">NP Membership</h3>
-            <p>Free subscription: Enjoy connection to community members and free access to all of our public services.</p>
-            <h3 class="membershipSub"><span class="bronze">Bronze Membership</span></h3>
-            <p>$100 Entry Fee: All benefits offered to NP Members with the added bonus of monthly trainings, 
-                and 10% discounts on all chambers advertising.
-            </p>
-            <h3 class="membershipSub"><span class="silver">Silver Membership</span></h3>
-            <p>$200 Entry Fee: All benefits from previous levels with additional access to Chambers of Moria homepage spotlight
-                and added 15% discounts on all advertising and future commissions.
-            </p>
-            <h3 class="membershipSub"><span class="gold">Gold Membership</span></h3>
-            <p>$300 Entry Fee: Access to all membership benefits. Includes access to weekly online trainings, full access to 
-                the Chamber of Moria's networking and contacts, exclusive access to coming events, and first pick
-                on all advertising opportunities with added 20% discounts.
-            </p>
-        </section>
-
     </main>
 
     <footer class="grid-footer">

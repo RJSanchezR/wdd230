@@ -148,6 +148,30 @@
         color: #f8f8f8;
     }
 
+    /* For the Join page */
+
+    .grid-join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
+    }
+
+    .join-title {
+        grid-column: 1/3;
+    }
+
+    .app-info {
+        grid-column: 1/2;
+    }
+
+    .membership-info {
+        grid-column: 2/3;
+    }
+
+    .bus-info {
+        grid-column: 1/2;
+    }
+
     /* For the Thankyou page */
     .thanks-title, .thanks-text {
         grid-column: 2/3;
