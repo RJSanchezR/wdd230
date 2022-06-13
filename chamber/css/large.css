@@ -147,7 +147,15 @@
     #myname {
         color: #f8f8f8;
     }
+
+    /* For the Thankyou page */
+    .thanks-title, .thanks-text {
+        grid-column: 2/3;
+    }
 }
+
+
+
 
 /* Larger viewports for the header*/
 @media only screen and (min-width: 601px) {
