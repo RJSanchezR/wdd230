@@ -48,7 +48,7 @@
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html" class="active">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -169,10 +169,10 @@
                 <label for="businessDescription" class="businessDescription">Business Description: </label>
                 <textarea name="businessDescription" id="businessDescription" cols="29" rows="5"></textarea>
 
-                <input type="hidden" name="submissionDate" id="submissionDate" hidden>
+                <input type="hidden" name="submissionDate" id="submissionDate" value="0">
 
                 <!-- the onclick causes the hidden field to send the date upon submission -->
-                <input type="submit" value="Join Us" onclick="sendDate()" class="joinSubmitBtn">
+                <input type="submit" value="Join Us" class="joinSubmitBtn">
 
             </fieldset>
 
