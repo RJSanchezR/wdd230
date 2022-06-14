@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap"
         rel="stylesheet">
-    
+
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/medium.css" />
@@ -28,7 +28,8 @@
 
         <div class="date"><span id="todayDate"></span></div>
         <div class="logo">
-            <a class="logo-pic" href="index.html"><img src="images/logo.webp" alt="Rexburg Chamber of Commerce logo" /></a>
+            <a class="logo-pic" href="index.html"><img src="images/logo.webp"
+                    alt="Rexburg Chamber of Commerce logo" /></a>
             <a href="index.html" class="headings">
                 <section>
                     <h2 class="header-title">REXBURG</h2>
@@ -70,7 +71,7 @@
         <form method="get" action="thankyou.html">
             <fieldset class="app-info">
                 <legend>Applicant Information</legend>
-                
+
                 <label for="fname" class="required">First Name: </label>
                 <input type="text" name="fname" id="fname" required placeholder="John">
 
@@ -80,11 +81,83 @@
                 <label for="businessTitle">Business Title: (At least 7 characters)</label>
                 <input type="text" name="businessTitle" id="businessTitle" pattern="[a-zA-Z0-9 -]{7,}">
 
-                <label for="userEmail" class="required">Email: (chamber@gmail.com) </label>
+                <label for="userEmail" class="required">Email: (your_email@mail.com) </label>
                 <input type="email" name="userEmail" id="userEmail" required placeholder="your_email@mail.com">
 
-                <label for="cellPhone" class="required">Cell Number: (555-555-5555)</label>
-                <input type="tel" name="cellPhones" id="cellPhone" required placeholder="123-890-4567" pattern="\d{3}-\d{3}-\d{4}">
+                <label for="cellPhone" class="required">Cell Number: (123-456-7890)</label>
+                <input type="tel" name="cellPhones" id="cellPhone" required placeholder="123-456-7890"
+                    pattern="\d{3}-\d{3}-\d{4}">
+            </fieldset>
+
+            <fieldset class="membership-info">
+                <legend>Memberships</legend>
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header np">NP</li>
+                        <li class="grey">$ 0 / year</li>
+                        <li>Business Listed on Directoy</li>
+                        <li>Community Trainings</li>
+                        <li>Occasinal Advertising</li>
+                        <li>Access to charitable Events</li>
+                        <li class="grey">
+                            <label>
+                                <input type="radio" name="membershipLevel" value="npMembership" class="radioMember">
+                                Choose NP
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header bronze">Bronze</li>
+                        <li class="grey">$ 100 / year</li>
+                        <li>NP Benefits</li>
+                        <li>Monthly Trainings</li>
+                        <li>10% Discounts on all Advertising</li>
+                        <li>10% Discount on all the Events</li>
+                        <li class="grey">
+                            <label>
+                                <input type="radio" name="membershipLevel" value="bronzeMembership" class="radioMember">
+                                Choose Bronze
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header silver">Silver</li>
+                        <li class="grey">$ 200 / year</li>
+                        <li>Bronze Benefits Plus</li>
+                        <li>General Marketing Support</li>
+                        <li>20% Discounts on all Advertising</li>
+                        <li>20% Discount on all the Events</li>
+                        <li class="grey">
+                            <label>
+                                <input type="radio" name="membershipLevel" value="silverMembership" class="radioMember">
+                                Choose Silver
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header gold">Gold</li>
+                        <li class="grey">$ 300 / year</li>
+                        <li>Silver Benefits Plus</li>
+                        <li>Personal Marketing Support</li>
+                        <li>30% Discounts on all Advertising</li>
+                        <li>30% Discount on all the Events</li>
+                        <li class="grey">
+                            <label>
+                                <input type="radio" name="membershipLevel" value="goldMembership" class="radioMember">
+                                Choose Gold
+                            </label>
+                        </li>
+                    </ul>
+                </div>
             </fieldset>
 
             <fieldset class="bus-info">
@@ -103,44 +176,6 @@
 
             </fieldset>
 
-        </form>
-        <form method="get" action="thankyou.html">
-            <fieldset class="membership-info">
-                <legend>Memberships</legend>
-                
-                <label>
-                    <input type="radio" name="membershipLevel" value="npMembership" class="radioMember">
-                    NP Membership
-                </label>
-                <label>
-                    <input type="radio" name="membershipLevel" value="bronzeMembership"  class="radioMember">
-                    Bronze Membership
-                </label>
-                <label>
-                    <input type="radio" name="membershipLevel" value="silverMembership" class="radioMember">
-                    Silver Membership
-                </label>
-                <label>
-                    <input type="radio" name="membershipLevel" value="goldMembership" class="radioMember">
-                    Gold Membership
-                </label>
-                <h2 class="membershipHeader">Membership Levels</h2>
-                <h3 class="membershipSub">NP Membership</h3>
-                <p>Free subscription: Enjoy connection to community members and free access to all of our public services.</p>
-                <h3 class="membershipSub"><span class="bronze">Bronze Membership</span></h3>
-                <p>$100 Entry Fee: All benefits offered to NP Members with the added bonus of monthly trainings, 
-                    and 10% discounts on all chambers advertising.
-                </p>
-                <h3 class="membershipSub"><span class="silver">Silver Membership</span></h3>
-                <p>$200 Entry Fee: All benefits from previous levels with additional access to Chambers of Moria homepage spotlight
-                    and added 15% discounts on all advertising and future commissions.
-                </p>
-                <h3 class="membershipSub"><span class="gold">Gold Membership</span></h3>
-                <p>$300 Entry Fee: Access to all membership benefits. Includes access to weekly online trainings, full access to 
-                    the Chamber of Moria's networking and contacts, exclusive access to coming events, and first pick
-                    on all advertising opportunities with added 20% discounts.
-                </p>
-            </fieldset>
         </form>
     </main>
 
@@ -171,4 +206,5 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
 </body>

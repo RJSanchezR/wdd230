@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     padding: 1rem 0 .1rem;
     margin: 0 auto;
-    border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 35px;
 }
 
 .logo {
@@ -157,10 +157,6 @@ nav {
     grid-row: 2/3;
 }
 
-.socials-index {
-    grid-row: 3/4;
-}
-
 .social-icon {
     margin: .5rem;
     width: 36px;
@@ -179,13 +175,14 @@ nav {
 }
 
 .banner {
-    width: 90%;
+    width: 100%;
     grid-column: 1/6;
     flex: 1 1 auto;
     color: #f8f8f8;
+    background-color: #0D3B66;
     justify-content: center;
-    margin: 10px;
     padding: .8rem 0;
+    border-bottom-left-radius: 35px;
 }
 
 main {
@@ -257,7 +254,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50%;
-    height: auto;
     justify-self: center;
 }
 
@@ -298,7 +294,8 @@ main {
     padding: .2rem;
 }
 
-a.spotlight-info:link, a.spotlight-info:visited {
+a.spotlight-info:link,
+a.spotlight-info:visited {
     color: #008F81;
     text-decoration: none;
 }
@@ -338,8 +335,8 @@ footer a {
 /* For the Join */
 
 .grid-join {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .join-title h1 {
@@ -425,6 +422,7 @@ form input:required:valid {
 
 .radioMember {
     margin: 5px 0;
+    text-align: center;
 }
 
 .required {
@@ -453,24 +451,6 @@ form input:required:valid {
     text-align: center;
 }
 
-/* .bronze {
-    background-color: #cd7f32;
-    border-radius: 10px;
-    padding: 0 5px;
-}
-
-.silver {
-    background-color: #C0C0C0;
-    border-radius: 10px;
-    padding: 0 5px;
-}
-
-.gold {
-    background-color: #FFDF00;
-    border-radius: 10px;
-    padding: 0 5px;
-} */
-
 .thanksHeading {
     text-align: center;
 }
@@ -484,9 +464,73 @@ form input:required:valid {
     margin-bottom: 100px;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
+/* For the pricing table */
+
+.columns {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #0D3B66;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price li {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    min-height: 5rem;
+}
+
+li label {
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #008F81;
+    font-size: 20px;
+}
+
+.bronze {
+    background-color: #6A3805;
+    color: white;
+    font-size: 25px;
+}
+
+.silver {
+    background-color: #B4B4B4;
+    color: white;
+    font-size: 25px;
+}
+
+.gold {
+    background-color: #C9B037;
+    color: white;
+    font-size: 25px;
+}
+
+.np {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
 
