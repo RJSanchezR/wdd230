@@ -58,8 +58,11 @@ img {
 }
 
 footer {
-    margin: 20px 0;
+    padding: 2rem 0;
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
+    color: #f8f8f8;
+    background-color: #0D3B66;
 }
 
 .cards {
