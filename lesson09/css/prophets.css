@@ -1,6 +1,5 @@
 * {
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -11,6 +10,9 @@ h1, h2, h3 {
 
 h1 {
     text-align: center;
+    font-size: 2.2rem;
+    margin: .5rem;
+    padding: .5rem;
 }
 
 p {
@@ -36,12 +38,19 @@ section {
     min-width: 300px;
 }
 
+section p {
+    color: #f8f8f8;
+    font-weight: bolder;
+}
+
 img {
     width: auto;
 	max-width: 325px;
-    box-shadow: 0 0 30px #777;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
     height: 200px;
-    border: 1px solid #333;
+    border: .1rem solid #f8f8f8;
+    margin: 1rem;
+    transition: ease-in;
 }
 
 footer {
