@@ -405,7 +405,7 @@ form label.required::after {
 }
 
 form input:required:invalid {
-    background-color: rgba(255, 0, 0, 0.275);
+    background-color: rgba(255, 0, 0, 0.111);
 }
 
 form input:required:valid {
@@ -521,7 +521,7 @@ li label {
 }
 
 .np {
-    background-color: #111;
+    background-color: #0D3B66;
     color: white;
     font-size: 25px;
 }

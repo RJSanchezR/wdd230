@@ -26,12 +26,14 @@
     nav {
         grid-column: 3/6;
         padding: 1.2rem 0;
+        justify-content: end;
     }
 
     .navigation {
         display: flex;
         list-style: none;
         padding: 0;
+        justify-content: flex-end;
     }
 
     .navigation li{

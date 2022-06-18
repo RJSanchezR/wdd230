@@ -1,10 +1,5 @@
-const formData = new FormData(document.querySelector('form'));
-
-function sendDate() {
-    const form = document.querySelector('form');
-    const data = Object.fromEntries(new FormData(form).entries());
-    document.getElementById("submissionDate").value = Date.now();
-}
+const now = Date.now();
+document.querySelector(".submissionDate").value = now;
 
 
 // document.querySelector('form').addEventListener('submit', (e) => {

@@ -20,16 +20,16 @@ function displayProphets(prophet) {
     let portrait = document.createElement('img');
 
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    h2.textContent = `${prophet['name']} ${prophet['lastname']}`;
 
     // Change the textContent property of the p elements to contain the prophet's birth date and birth place
 
-    birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-    birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+    birthDate.textContent = `Date of Birth: ${prophet['birthdate']}`;
+    birthPlace.textContent = `Place of Birth: ${prophet['birthplace']}`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute('src', prophet['imageurl']);
+    portrait.setAttribute('alt', `Portait of ${prophet['name']} ${prophet['lastname']}`);
     portrait.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element
