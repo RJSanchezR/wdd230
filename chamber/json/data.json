@@ -1,0 +1,103 @@
+{
+    "business": [{
+            "name": "Kettle Embroidery",
+            "street": "61 E Main St.",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2086569993,
+            "website": "https://kettleembroidery.com/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "gold"
+        },
+        {
+            "name": "John Adams GMC",
+            "street": "890 W Main St.",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2083564455,
+            "website": "https://www.johnadamsgmc.com/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "gold"
+        },
+        {
+            "name": "Les Schwab Tire Center",
+            "street": "407 S 5th",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2083564606,
+            "website": "https://www.lesschwab.com/stores/id/rexburg/407-s-5th-w/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "bronze"
+
+        },
+        {
+            "name": "Millhollow Restaurant",
+            "street": "48 S 1st E",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2083560847,
+            "website": "https://www.millhollowrestaurant.com/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "silver"
+        },
+        {
+            "name": "Rexburg Commons",
+            "street": "510 Terra Vista Dr.",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2085579495,
+            "website": "https://rexburgcommons.com/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "silver"
+        },
+        {
+            "name": "Fat Cats of Rexburg",
+            "street": "475 N 2nd E",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2083592600,
+            "website": "www.fatcatsfun.com/rexburg/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "bronze"
+        },
+        {
+            "name": "Madison Memorial Hospital",
+            "street": "450 E Main St.",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2083596900,
+            "website": "https://madisonmemorial.org/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "silver"
+        },
+        {
+            "name": "Righteous Slice",
+            "street": "175 W 200 S #100",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 5003339532,
+            "website": "https://www.righteousslice.com/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "gold"
+        },
+        {
+            "name": "Circle of Love",
+            "street": "64 E Main St.",
+            "city": "Rexburg",
+            "state": "ID",
+            "zipcode": 83440,
+            "phone": 2083560058,
+            "website": "https://www.mycircleoflove.com/",
+            "imageurl": "images/kettleEmbroidery.webp",
+            "membership": "gold"
+        }
+    ]
+}
