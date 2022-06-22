@@ -186,7 +186,7 @@ nav {
     border-bottom-left-radius: 35px;
 }
 
-main {
+.grid-main {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -333,6 +333,19 @@ footer a {
     color: #f8f8f8;
 }
 
+/* For the Discover */
+
+.discover-title {
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #0D3B66;
+    justify-items: center;
+    align-items: center;
+    padding: .5rem;
+    margin: 1rem 0;
+    grid-column: 1/4;
+}
+
 /* For the Join */
 
 .grid-join {
@@ -340,12 +353,14 @@ footer a {
     flex-direction: column;
 }
 
-.join-title h1 {
+.join-title {
+    text-align: center;
     color: #f8f8f8;
     background-color: #0D3B66;
-    text-align: center;
-    padding: .5rem 1rem;
-    margin: 0;
+    justify-items: center;
+    align-items: center;
+    padding: .5rem;
+    margin: 1rem 0;
 }
 
 fieldset:first-child {
@@ -528,12 +543,37 @@ li label {
 
 /* For the Directory*/
 
-.directory-title {
-    padding: 1rem;
+.grid-directory {
+    text-align: center;
 }
+
+.cards section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin: 10px;
+}
+
+.lists section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.directory-title {
+    color: #f8f8f8;
+    background-color: #0D3B66;
+    justify-items: center;
+    align-items: center;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
 .display-buttons {
     padding: 1rem;
-    margin: .5rem;
+    margin: 1rem;
     justify-items: center;
     align-items: center;
     
