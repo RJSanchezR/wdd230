@@ -1,19 +1,5 @@
-const requestURL = '../json/data.json';
+const requestURL = 'https://rjsanchezr.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
-
-const gridView = document.querySelector('#grid-view');
-const listView = document.querySelector('#list-view');
-const display = document.querySelector('.cards')
-
-gridView.addEventListener("click", () => {
-    display.classList.add("cards");
-    display.classList.remove("lists");
-});
-
-listView.addEventListener("click", () => {
-    display.classList.add("lists");
-    display.classList.remove("cards");
-});
 
 fetch(requestURL)
     .then(function (response) {
@@ -23,13 +9,14 @@ fetch(requestURL)
         console.table(jsonObject);
 
         const business = jsonObject['business'];
-        business.forEach(displaybusiness);
+        business.forEach(displayBusiness);
     });
 
 let s1 = document.createElement('section');
+s1.className = 'bisnes';
 document.querySelector('div.cards').appendChild(s1);
 
-function displaybusiness(business) {
+function displayBusiness(business) {
     let card = document.createElement('div');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
