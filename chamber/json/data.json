@@ -41,7 +41,7 @@
             "zipcode": 83440,
             "phone": 2083560847,
             "website": "https://www.millhollowrestaurant.com/",
-            "imageurl": "images/kettleEmbroidery.webp",
+            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/millhollow.png",
             "membership": "silver"
         },
         {
@@ -52,7 +52,7 @@
             "zipcode": 83440,
             "phone": 2085579495,
             "website": "https://rexburgcommons.com/",
-            "imageurl": "images/kettleEmbroidery.webp",
+            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/Rex-Com-Header.jpg",
             "membership": "silver"
         },
         {
@@ -63,7 +63,7 @@
             "zipcode": 83440,
             "phone": 2083592600,
             "website": "www.fatcatsfun.com/rexburg/",
-            "imageurl": "images/kettleEmbroidery.webp",
+            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/fatcatsallblack.png",
             "membership": "bronze"
         },
         {
@@ -74,7 +74,7 @@
             "zipcode": 83440,
             "phone": 2083596900,
             "website": "https://madisonmemorial.org/",
-            "imageurl": "images/kettleEmbroidery.webp",
+            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/MMHlogo.png",
             "membership": "silver"
         },
         {
@@ -85,7 +85,7 @@
             "zipcode": 83440,
             "phone": 5003339532,
             "website": "https://www.righteousslice.com/",
-            "imageurl": "images/kettleEmbroidery.webp",
+            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/righteousSlice.png",
             "membership": "gold"
         },
         {
@@ -96,7 +96,7 @@
             "zipcode": 83440,
             "phone": 2083560058,
             "website": "https://www.mycircleoflove.com/",
-            "imageurl": "images/kettleEmbroidery.webp",
+            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/Circle-of-Love-Logo.png",
             "membership": "gold"
         }
     ]
