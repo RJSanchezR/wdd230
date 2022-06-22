@@ -28,7 +28,7 @@ function displayProphets(prophet) {
     birthPlace.textContent = `Place of Birth: ${prophet['birthplace']}`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
-    portrait.setAttribute('src', prophet['imageurl']);
+    portrait.setAttribute('src', `${prophet['imageurl']}`);
     portrait.setAttribute('alt', `Portait of ${prophet['name']} ${prophet['lastname']}`);
     portrait.setAttribute('loading', 'lazy');
 
