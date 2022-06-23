@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #000000;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+h1 {
+    background-color: #0D3B66;
+    padding: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.weather {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    margin: 1rem auto;
+    background-color: #008F81;
+}
+
+.city {
+    font-size: larger;
+    padding: 1rem;
+}
+
+.sky {
+    color: #000000;
+    font-size: larger;
+    padding: 1rem;
+}
+
+figcaption {
+    font-weight: 1000;
+}
+
+.links {
+    max-width: 800px;
+    width: 100%;
+    background-color: #0D3B66;
+    padding: 1rem;
+}
+.open-weather {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.open-weather:visited {
+    color: #f8f8f8;
+}
