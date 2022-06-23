@@ -168,6 +168,29 @@
     .thanks-title, .thanks-text {
         grid-column: 2/3;
     }
+
+    /* For the Directory page */
+    .lists .bisnes div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
+
+    .business-name {
+        display: none;
+    }
+
+    .lists section img {
+        display: block;
+    }
+
+    .businessData {
+        height: 100%;
+    }
+
+    .businessImg {
+        
+    }
 }
 
 

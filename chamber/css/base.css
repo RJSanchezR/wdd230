@@ -545,12 +545,15 @@ li label {
 
 .grid-directory {
     text-align: center;
+    color: black;
 }
 
 .cards section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 20px;
+    justify-items: center;
+    align-items: flex-start;
     margin: 10px;
 }
 
@@ -562,6 +565,10 @@ li label {
     margin: 10px;
 }
 
+.lists section img {
+    display: none;
+}
+
 .directory-title {
     color: #f8f8f8;
     background-color: #0D3B66;
@@ -569,6 +576,16 @@ li label {
     align-items: center;
     padding: .5rem;
     margin: 1rem 0;
+}
+
+.businessData {
+    width: 100%;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.businessData p {
+    padding: .5rem;
 }
 
 .display-buttons {
@@ -601,6 +618,12 @@ li label {
     width: 70%;
     height: auto;
     padding: .67rem .25rem;
+}
+
+.businessImg {
+    width: 15rem;
+    height: auto;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
