@@ -63,6 +63,5 @@ const social = document.querySelector(".socials")
 // let day = d.getDay();
 
 if (day.getDay() == 1 || day.getDay() == 2) {
-	console.log('small')
     social.classList.toggle('socials-small')
 }
