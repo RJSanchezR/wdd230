@@ -257,10 +257,23 @@ nav {
     grid-template-columns: 1fr 1fr;
     width: 50%;
     justify-self: center;
+    align-items: center;
+}
+
+.weather-title {
+    grid-column: 1/3;
 }
 
 .weather-image {
     justify-self: right;
+}
+
+.weather-sky {
+    grid-column: 1/3;
+}
+
+.weather-div {
+    grid-column: 1/3;
 }
 
 .join {

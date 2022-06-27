@@ -52,7 +52,7 @@
     }
 
     main {
-
+        max-width: 1200px;
         background-color: #f8f8f8;
         color: black;
         margin: auto;
