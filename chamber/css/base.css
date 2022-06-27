@@ -603,6 +603,7 @@ li label {
 
 .businessData p {
     padding: .5rem;
+    overflow-wrap: break-word;
 }
 
 .display-buttons {
