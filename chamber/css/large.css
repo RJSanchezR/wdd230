@@ -52,7 +52,7 @@
     }
 
     main {
-        max-width: 1200px;
+        max-width: 1400px;
         background-color: #f8f8f8;
         color: black;
         margin: auto;
@@ -60,7 +60,6 @@
 
     .grid-main {
         grid-template-columns: 1fr 3fr 1fr;
-        margin-top: 1rem;
     }
     
     .hero-main {
@@ -189,7 +188,8 @@
     }
 
     .businessImg {
-        
+        max-height: 80px;
+        max-width:fit-content;
     }
 }
 
