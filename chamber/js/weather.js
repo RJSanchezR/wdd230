@@ -21,7 +21,7 @@ fetch(url)
         const temperature = data['main']['temp'];
         
 
-        const iconsrc = `https://openweathermap.org/img/w/${data['weather'][0].icon}.png`;
+        const iconsrc = `https://openweathermap.org/img/wn/${data['weather'][0]['icon']}@2x.png`;
         
         const desc = data['weather'][0].description;
 
