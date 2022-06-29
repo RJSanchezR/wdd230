@@ -12,7 +12,6 @@ const units = 'imperial';
 
 const url = `${base_url}?q=${city_name},${state_code},${country_code}&units=${units}&appid=${appid}`;
 
-console.log(url);
 
 fetch(url)
     .then((response) => response.json())
