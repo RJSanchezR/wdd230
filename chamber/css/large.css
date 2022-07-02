@@ -188,7 +188,7 @@
     }
 
     .businessImg {
-        max-height: 5vw;
+        max-height: 120px;
         max-width:fit-content;
     }
 }
