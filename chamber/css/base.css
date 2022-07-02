@@ -372,6 +372,8 @@ footer a {
 .grid-join {
     display: flex;
     flex-direction: column;
+    color: black;
+    font-weight: bold;
 }
 
 .join-title {
@@ -407,7 +409,10 @@ legend {
     font-family: 'Zen Maru Gothic', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #CBBA00;
+    padding: 1rem;
+    color: #f8f8f8;
+    background-color: #0D3B66;
+    border-radius: 20px;
 }
 
 form label,
@@ -448,7 +453,8 @@ form input:required:valid {
     background-color: rgba(0, 128, 0, 0.011);
 }
 
-.businessDescription {
+#businessDescription {
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -467,9 +473,14 @@ form input:required:valid {
 }
 
 .joinSubmitBtn {
-    font-weight: bold;
+    width: 50%;
+    justify-self: center;
+    font-size: 1.5rem;
+    font-weight: 999;
     background-color: #008F81;
+    margin: auto;
     margin-top: 16px;
+    border-radius: 20px;
 }
 
 .membershipDescription {
@@ -538,25 +549,25 @@ li label {
     font-size: 20px;
 }
 
-.bronze {
+#bronze {
     background-color: #6A3805;
     color: white;
     font-size: 25px;
 }
 
-.silver {
+#silver {
     background-color: #B4B4B4;
     color: white;
     font-size: 25px;
 }
 
-.gold {
+#gold {
     background-color: #C9B037;
     color: white;
     font-size: 25px;
 }
 
-.np {
+#np {
     background-color: #0D3B66;
     color: white;
     font-size: 25px;
@@ -686,5 +697,17 @@ li label {
     .my-info {
         display: flex;
         flex-direction: column;
+    }
+
+    .price li:first-of-type {
+        display: list-item;
+    }
+
+    .price li {
+        display: none;
+    }
+
+    .special li {
+        display: list-item;
     }
 }
