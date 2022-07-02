@@ -603,11 +603,25 @@ li label {
     width: 100%;
     border: 1px solid black;
     padding: 1rem;
+    font-weight: bold;
 }
 
 .businessData p {
     padding: .5rem;
     overflow-wrap: break-word;
+}
+
+.businessData a {
+    padding: .5rem;
+    overflow-wrap: break-word;
+    display: block;
+    color: black;
+}
+
+.businessData a:hover {
+    color: #C9B037;
+    background-color: #0D3B66;
+    border-radius: 20px;
 }
 
 .display-buttons {

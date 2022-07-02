@@ -28,8 +28,8 @@
             "state": "ID",
             "zipcode": 83440,
             "phone": 2083564606,
-            "website": "https://www.lesschwab.com/stores/id/rexburg/407-s-5th-w/",
-            "imageurl": "images/LesSchwab-logo.png",
+            "website": "https://www.lesschwab.com",
+            "imageurl": "images/LesSchwab-logo.webp",
             "membership": "bronze"
 
         },
@@ -41,7 +41,7 @@
             "zipcode": 83440,
             "phone": 2083560847,
             "website": "https://www.millhollowrestaurant.com/",
-            "imageurl": "images/millhollow.png",
+            "imageurl": "images/millhollow.webp",
             "membership": "silver"
         },
         {
@@ -52,7 +52,7 @@
             "zipcode": 83440,
             "phone": 2085579495,
             "website": "https://rexburgcommons.com/",
-            "imageurl": "images/Rex-Com-Header.jpg",
+            "imageurl": "images/Rex-Com-Header.webp",
             "membership": "silver"
         },
         {
@@ -63,7 +63,7 @@
             "zipcode": 83440,
             "phone": 2083592600,
             "website": "www.fatcatsfun.com/rexburg/",
-            "imageurl": "images/fatcatsallblack.png",
+            "imageurl": "images/fatcatsallblack.webp",
             "membership": "bronze"
         },
         {
@@ -74,7 +74,7 @@
             "zipcode": 83440,
             "phone": 2083596900,
             "website": "https://madisonmemorial.org/",
-            "imageurl": "images/MMHlogo.png",
+            "imageurl": "images/MMHlogo.webp",
             "membership": "silver"
         },
         {
@@ -85,7 +85,7 @@
             "zipcode": 83440,
             "phone": 5003339532,
             "website": "https://www.righteousslice.com/",
-            "imageurl": "images/righteousSlice.png",
+            "imageurl": "images/righteousSlice.webp",
             "membership": "gold"
         },
         {
@@ -96,7 +96,7 @@
             "zipcode": 83440,
             "phone": 2083598558,
             "website": "https://www.kiwanis.org/",
-            "imageurl": "images/kiwanis-logo.png",
+            "imageurl": "images/kiwanis-logo.webp",
             "membership": "NP"
         }
     ]

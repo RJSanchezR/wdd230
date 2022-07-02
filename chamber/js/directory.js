@@ -20,8 +20,8 @@ function displayBusiness(business) {
     let card = document.createElement('div');
     let businessName = document.createElement('h2');
     let address = document.createElement('p');
-    let phone = document.createElement('p');
-    let website = document.createElement('p');
+    let phone = document.createElement('a');
+    let website = document.createElement('a');
     let logo = document.createElement('img');
 
     logo.className = 'businessImg';
@@ -38,6 +38,11 @@ function displayBusiness(business) {
     logo.setAttribute('src', `${business["imageurl"]}`);
     logo.setAttribute('alt', `Logo of ${business["name"]}`);
     logo.setAttribute('loading', 'lazy');
+
+    phone.setAttribute('href', `tel:${business["phone"]}`);
+
+    website.setAttribute('href', `${business["website"]}`);
+    website.setAttribute('target', "_blank");
 
     card.appendChild(businessName);
     card.appendChild(logo);
