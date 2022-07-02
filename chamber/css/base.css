@@ -44,7 +44,8 @@ header {
 }
 
 .logo img {
-    width: 10vh;
+    max-width: 100px;
+    width: 15vw;
     height: auto;
 }
 
