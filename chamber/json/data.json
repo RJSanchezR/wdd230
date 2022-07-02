@@ -1,13 +1,13 @@
 {
     "business": [{
-            "name": "Kettle Embroidery",
-            "street": "61 E Main St.",
+            "name": "Freeman Clothing",
+            "street": "160 W 2nd S STE 104",
             "city": "Rexburg",
             "state": "ID",
             "zipcode": 83440,
-            "phone": 2086569993,
-            "website": "https://kettleembroidery.com/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/kettleEmbroidery.png",
+            "phone": 2083592871,
+            "website": "https://freemanclothing.com/",
+            "imageurl": "images/freeman-logo.webp",
             "membership": "gold"
         },
         {
@@ -18,7 +18,7 @@
             "zipcode": 83440,
             "phone": 2083564455,
             "website": "https://www.johnadamsgmc.com/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/JohnAdamsGMC.webp",
+            "imageurl": "images/JohnAdamsGMC.webp",
             "membership": "gold"
         },
         {
@@ -41,7 +41,7 @@
             "zipcode": 83440,
             "phone": 2083560847,
             "website": "https://www.millhollowrestaurant.com/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/millhollow.png",
+            "imageurl": "images/millhollow.png",
             "membership": "silver"
         },
         {
@@ -52,7 +52,7 @@
             "zipcode": 83440,
             "phone": 2085579495,
             "website": "https://rexburgcommons.com/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/Rex-Com-Header.jpg",
+            "imageurl": "images/Rex-Com-Header.jpg",
             "membership": "silver"
         },
         {
@@ -63,7 +63,7 @@
             "zipcode": 83440,
             "phone": 2083592600,
             "website": "www.fatcatsfun.com/rexburg/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/fatcatsallblack.png",
+            "imageurl": "images/fatcatsallblack.png",
             "membership": "bronze"
         },
         {
@@ -74,7 +74,7 @@
             "zipcode": 83440,
             "phone": 2083596900,
             "website": "https://madisonmemorial.org/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/MMHlogo.png",
+            "imageurl": "images/MMHlogo.png",
             "membership": "silver"
         },
         {
@@ -85,19 +85,19 @@
             "zipcode": 83440,
             "phone": 5003339532,
             "website": "https://www.righteousslice.com/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/righteousSlice.png",
+            "imageurl": "images/righteousSlice.png",
             "membership": "gold"
         },
         {
-            "name": "Circle of Love",
-            "street": "64 E Main St.",
+            "name": "Kiwanis Club",
+            "street": "39 Professional Plaza",
             "city": "Rexburg",
             "state": "ID",
             "zipcode": 83440,
-            "phone": 2083560058,
-            "website": "https://www.mycircleoflove.com/",
-            "imageurl": "https://rjsanchezr.github.io/wdd230/chamber/images/Circle-of-Love-Logo.png",
-            "membership": "gold"
+            "phone": 2083598558,
+            "website": "https://www.kiwanis.org/",
+            "imageurl": "images/kiwanis-logo.png",
+            "membership": "NP"
         }
     ]
 }
