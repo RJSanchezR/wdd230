@@ -3,7 +3,7 @@
 const np = document.querySelector('#np');
 const pricenp = document.querySelector('#pricenp');
 
-np.addEventListener('click', () => {pricenp.classList.toggle('special')}, false);
+np.addEventListener('click', () => {pricenp.classList.toggle('special')}, true);
 
 const bronze = document.querySelector('#bronze');
 const pricebronze = document.querySelector('#pricebronze');
