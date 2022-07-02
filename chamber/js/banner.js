@@ -7,10 +7,8 @@ const socials = document.querySelector(".socials")
 
 if (d.getDay() == 1 || d.getDay() == 2) {
     banner.style.display = "block";
-	console.log('block')
     socials.classList.toggle('socials-index')
 }
 else {
     banner.style.display = "none";
-	console.log('none')
 }
