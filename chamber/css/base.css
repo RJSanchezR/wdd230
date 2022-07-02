@@ -415,6 +415,10 @@ legend {
     border-radius: 20px;
 }
 
+form label {
+    padding: 1rem 0;
+}
+
 form label,
 form input {
     display: block;
