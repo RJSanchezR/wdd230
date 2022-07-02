@@ -468,6 +468,10 @@ form input:required:valid {
     text-align: center;
 }
 
+.grey label {
+    color: white;
+}
+
 .required {
     content: " *";
 }
@@ -493,6 +497,7 @@ form input:required:valid {
 
 .membershipHeader {
     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .membershipSub {
@@ -545,31 +550,32 @@ li label {
 }
 
 .price .grey {
-    background-color: #008F81;
+    color: #f8f8f8;
+    background-color: #0D3B66;
     font-size: 20px;
 }
 
 #bronze {
-    background-color: #6A3805;
-    color: white;
+    background-color: #7a4109;
+    color: black;
     font-size: 25px;
 }
 
 #silver {
     background-color: #B4B4B4;
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
 #gold {
     background-color: #C9B037;
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
 #np {
-    background-color: #0D3B66;
-    color: white;
+    background-color: #008F81;
+    color: black;
     font-size: 25px;
 }
 

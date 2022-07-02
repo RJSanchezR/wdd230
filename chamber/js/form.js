@@ -20,5 +20,7 @@ const pricegold = document.querySelector('#pricegold');
 
 gold.addEventListener('click', () => {pricegold.classList.toggle('special')}, false);
 
+// Submission button action
+
 const rightnow = Date.now();
 document.querySelector("#submissionDate").value = rightnow;
