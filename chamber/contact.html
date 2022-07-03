@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The directory page for the Rexburg Chamber of Commerce project" />
+    <meta name="description" content="The Contact page for the Rexburg Chamber of Commerce project" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
 
@@ -20,14 +20,16 @@
     <link rel="stylesheet" type="text/css" href="css/medium.css" />
     <link rel="stylesheet" type="text/css" href="css/large.css" />
 
-    <title>Directory of the Rexburg Chamber of Commerce | WDD 230</title>
+    <title>Contact the Rexburg Chamber of Commerce | WDD 230</title>
 </head>
 
 <body>
     <header>
+
         <div class="date"><span id="todayDate"></span></div>
         <div class="logo">
-            <a class="logo-pic" href="index.html"><img src="images/logo.webp" alt="Rexburg Chamber of Commerce logo" /></a>
+            <a class="logo-pic" href="index.html"><img src="images/logo.webp"
+                    alt="Rexburg Chamber of Commerce logo" /></a>
             <a href="index.html" class="headings">
                 <section>
                     <h2 class="header-title">REXBURG</h2>
@@ -46,9 +48,9 @@
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
 
@@ -61,24 +63,32 @@
 
     </header>
 
-    <main class="grid-directory">
+    <main class="main-contact">
         <div class="directory-title">
-            <h1>Rexburg Chamber of Commerce's Directory</h1>
+            <h1>Contact the Rexburg Chamber of Commerce</h1>
         </div>
+        <div class="contact-us">
+            <figure id="contact-pic">
+                <img src="images/chamber-front.webp" alt="The front side of the Rexburg Chamber of Commerce">
+            </figure>
 
-        <div class="display-buttons">
-            <button id="grid-view">
-                <img id="grid-button" src="images/grid-icon.webp" alt="The button for Grid display">
-            </button>
-            <button id="list-view">
-                <img id="list-button" src="images/list-icon.webp" alt="The button for List display">
-            </button>
+            <section id="visit-us">
+                <h2>Come Visit</h2>
+                <p>167 W. Main St. Ste. 2</p>
+                <p>Rexburg, ID</p>
+                <p>Monday – Friday: 9:00 a.m. to 4:30 p.m.</p>
+            </section>
+
+            <section id="call-us">
+                <h2>Call Us</h2>
+                <a href="tel:2084961411">(208) 496-1411</a>
+            </section>
+
+            <section id="email-us">
+                <h2>Email Us</h2>
+                <a href="mailto:info@rexburgchamb.org">info@rexburgchamb.org</a>
+            </section>
         </div>
-
-        <div class="cards">
-
-        </div>
-
     </main>
 
     <footer class="grid-footer">
@@ -111,8 +121,9 @@
     </footer>
 
     <script src="js/script.js"></script>
-    <script src="js/directory.js"></script>
-    <script src="js/business.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/weather.js"></script>
 
 </body>
 

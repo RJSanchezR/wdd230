@@ -509,6 +509,12 @@ form input:required:valid {
     text-align: center;
 }
 
+/* For the Thank you page */
+
+.main-thanks {
+    min-height: 60vh;
+}
+
 .thanksHeading {
     text-align: center;
 }
@@ -613,6 +619,7 @@ li label {
 }
 
 .directory-title {
+    text-align: center;
     color: #f8f8f8;
     background-color: #0D3B66;
     justify-items: center;
@@ -683,6 +690,30 @@ li label {
     height: auto;
     padding: 1rem;
 }
+
+/* For the Contact */
+
+.main-contact {
+    text-align: center;
+    color: black;
+}
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: .5rem;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem .2rem;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     .columns {

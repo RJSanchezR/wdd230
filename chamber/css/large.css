@@ -193,6 +193,38 @@
         max-height: 120px;
         max-width:fit-content;
     }
+
+    /* For the contact */
+
+    .contact-us {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #contact-pic {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+    }
+
+    #visit-us{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 1rem 0;
+    }
+
+    #call-us {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 1rem 0;
+    }
+    
+    #email-us {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 1rem 0;
+    }
 }
 
 
