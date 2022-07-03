@@ -25,12 +25,14 @@
 
     nav {
         grid-column: 3/6;
+        width: fit-content;
         padding: 1.2rem 0;
         justify-content: end;
     }
 
     .navigation {
         display: flex;
+        flex: 1 1 content;
         list-style: none;
         padding: 0;
         justify-content: flex-end;

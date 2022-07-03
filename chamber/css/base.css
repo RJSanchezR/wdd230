@@ -203,7 +203,7 @@ nav {
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 10px 10px 0 0;
-    padding: 1rem;
+    padding: 1rem .2rem;
 }
 
 .grid-main div {
@@ -411,7 +411,7 @@ legend {
     font-weight: bold;
     padding: 1rem;
     color: #f8f8f8;
-    background-color: #0D3B66;
+    background-color: #008F81;
     border-radius: 20px;
 }
 
@@ -485,6 +485,7 @@ form input:required:valid {
     justify-self: center;
     font-size: 1.5rem;
     font-weight: 999;
+    color: #f8f8f8;
     background-color: #008F81;
     margin: auto;
     margin-top: 16px;
@@ -560,7 +561,7 @@ li label {
 }
 
 #bronze {
-    background-color: #7a4109;
+    background-color: #B5610D;
     color: black;
     font-size: 25px;
 }
@@ -578,7 +579,7 @@ li label {
 }
 
 #np {
-    background-color: #008F81;
+    background-color: #22afde;
     color: black;
     font-size: 25px;
 }
