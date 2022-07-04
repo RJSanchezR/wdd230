@@ -74,7 +74,6 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-        gap: 1rem;
         text-align: center;
         background-color: #0D3B66;
         color: #CBBA00;
@@ -85,7 +84,7 @@
     }
 
     footer img {
-        width: 80px;
+        width: min(100%, 120px);
         height: auto;
     }
 
@@ -106,17 +105,18 @@
     }
 
     .chamber-info {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
     }
 
-    /* .chamber-info figure {
+    .chamber-info figure {
         grid-column: 1/2;
     }
 
     .chamber-address {
         grid-column: 2/3;
-    } */
+    }
 
     #weather-credit{
         text-align: center;

@@ -393,6 +393,7 @@ a.spotlight-info:hover {
 }
 
 footer {
+    display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
@@ -418,6 +419,7 @@ footer a {
 }
 
 #weather-credit {
+    text-align: center;
     color: #f8f8f8;
     font-size: .7rem;
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1001px) {
 
     body {
         font-size: 1.125rem;
@@ -144,23 +144,54 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-        gap: 1rem;
         text-align: center;
         background-color: #0D3B66;
         color: #CBBA00;
         font-size: 1.2rem;
         font-weight: 600;
         border-radius: 10px 10px 0 0;
-        padding: 1rem;
+        padding: 0;
     }
 
     footer img {
-        width: 80px;
+        justify-content: right;
+        width: min(100%, 120px);
         height: auto;
     }
 
     footer a {
-        color:#f8f8f8
+        color:#f8f8f8;
+        padding: .5rem 0;
+    }
+
+    footer p {
+        padding: .5rem 0;
+    }
+
+    .footer-div {
+        height: 1px;
+        background-color: black;
+        width: auto;
+        grid-column: 1/3;
+    }
+
+    .chamber-info {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+
+    .chamber-info figure {
+        grid-column: 1/2;
+    }
+
+    .chamber-address {
+        grid-column: 2/3;
+    }
+
+    #weather-credit{
+        text-align: center;
+        grid-column: 1/3;
     }
 
     #myname {
