@@ -215,6 +215,10 @@ nav {
     padding-bottom: .5rem;
 }
 
+.event-title, .news-title {
+    padding-top: 1rem;
+}
+
 .hero-main {
     position: relative;
     display: flex;
@@ -318,6 +322,10 @@ nav {
     border: 1px solid black;
 }
 
+.news-info {
+    padding: 0 2rem;
+}
+
 .join {
     display: none;
     background-color: #0D3B66;
@@ -327,8 +335,9 @@ nav {
 .join-us {
     color: #f8f8f8;
     background-color: #008F81;
-    font-weight: bold;
-    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem 2rem;
     border: 2px solid black;
     border-radius: 30px;
     box-shadow: 0px 0px 5px 0px black;
@@ -384,7 +393,8 @@ nav {
 
 a.spotlight-info:link,
 a.spotlight-info:visited {
-    color: #30aea1;
+    color: #CBBA00;
+    font-weight: 900;
     text-decoration: none;
 }
 
