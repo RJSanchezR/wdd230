@@ -210,6 +210,11 @@ nav {
     border: 1px solid black;
 }
 
+.event-title, .weather-title, .news-title, .spotlight-title {
+    color: #CBBA00;
+    padding-bottom: .5rem;
+}
+
 .hero-main {
     position: relative;
     display: flex;
@@ -237,9 +242,9 @@ nav {
     left: .2em;
     top: .5em;
     color: #f8f8f8;
-    background-color: #008F81af;
+    background-color: #22a09470;
     text-shadow: 0 0 20px black;
-    font-size: clamp(2.5rem, 4vw, 75px);
+    font-size: calc(25px + (40 - 14) * ((100vw - 350px) / (1400 - 350)));
 }
 
 .hero-form {
@@ -258,14 +263,26 @@ nav {
     height: 100%;
     color: #f8f8f8;
     background-color: #008F81;
-    font-weight: bold;
-    border: 2px solid #0D3B66;
+    font-weight: 900;
+    border: 2px solid black;
     border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.hero-button:hover, .join-us:hover {
+    background-color: #990000;
+    transition: .5s;
 }
 
 .event {
     background-color: #0D3B66;
     border: 1px solid black;
+}
+
+.event-org {
+    padding: .5rem 0;
 }
 
 .weather {
@@ -307,6 +324,18 @@ nav {
     border: 1px solid black;
 }
 
+.join-us {
+    color: #f8f8f8;
+    background-color: #008F81;
+    font-weight: bold;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
 .spotlight {
     background-color: #0D3B66;
     border: 1px solid black;
@@ -315,16 +344,16 @@ nav {
 
 .spotlight div {
     color: #f8f8f8;
-    border: 1px solid black;
+    border: 4px solid #0a345c;
 }
 
 .spotlight-1 {
-    box-shadow: 0px 0px 5px 0px #000;
+    box-shadow: 0px 0px 5px 0px black;
     margin-bottom: .5rem;
 }
 
 .spotlight-2, .spotlight-3 {
-    box-shadow: 0px 0px 5px 0px #000;
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 .spotlight-3 {
@@ -364,18 +393,19 @@ a.spotlight-info:hover {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
-    gap: 1rem;
     text-align: center;
     background-color: #0D3B66;
     color: #CBBA00;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 10px 10px 0 0;
-    padding: 1rem;
+}
+
+footer div {
+    padding: 1rem 0;
 }
 
 footer img {
@@ -385,6 +415,11 @@ footer img {
 
 footer a {
     color: #f8f8f8
+}
+
+#weather-credit {
+    color: #f8f8f8;
+    font-size: .7rem;
 }
 
 #myname {

@@ -81,15 +81,17 @@
 
         <div id="hero-cont" class="hero-main">
             <figure>
-                <img class="hero-image" srcset="images/rexburg-tall.webp 350w, images/rexburg-night.webp 601w, images/rexburg886x739.webp 901w" sizes="(max-width: 1400px) 100vw, 50vw"  src="images/rexburg886x739.webp" alt="Rexburg, Idaho">
+                <img class="hero-image"
+                    srcset="images/rexburg-tall.webp 350w, images/rexburg-night.webp 601w, images/rexburg886x739.webp 901w"
+                    sizes="(max-width: 1400px) 100vw, 50vw" src="images/rexburg886x739.webp" alt="Rexburg, Idaho">
             </figure>
 
             <h1 class="hero-title">Welcome to Rexburg</h1>
 
             <form action="join.html" class="hero-form">
-                <button type="button" class="hero-button">Join the Chamber</button>
+                <button type="submit" class="hero-button">Join the Chamber</button>
             </form>
-            
+
         </div>
 
         <div class="event">
@@ -113,13 +115,17 @@
 
         <div class="news">
             <h2 class="news-title">News Release</h2>
-            <p class="news-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quas numquam nobis
-                autem obcaecati exercitationem libero magni tenetur consequatur quod, rem in
-                sequi perferendis velit rerum hic ab ut facere?</p>
+            <p class="news-info">The Rexburg Americana horse riding group will be celebrating its 40th anniversary on
+                Aug. 14. The group has
+                performed in over 500 performances across the U.S., with over 200 riders participating throughout the
+                Americana’s existence.</p>
         </div>
 
         <div class="join">
-            <button class="join-us"><strong>Join Us!</strong></button>
+            <form action="join.html">
+                <button type="submit" class="join-us">Join Us!</button>
+            </form>
+
             <p class="joinSectionText">Discover how to join the chamber of commerce and how it will
                 benefit your organization!</p>
         </div>
@@ -167,7 +173,7 @@
             <section class="chamber-address">
                 <h2>Rexburg Chamber of Commerce</h2>
                 <p>167 W. Main St. Ste. 2</p>
-                <p>Rexburg, ID</p>
+                <p>Rexburg, Idaho</p>
             </section>
         </div>
 
@@ -176,13 +182,13 @@
             <p>+(208) 496-1411</p>
             <a href="map" target="_blank">Location Map</a>
         </div>
-        <hr>
+        <hr class="footer-div">
         <div class="my-info">
-            <p>&copy; <span id="currentYear"></span> Rexburg Chamber |</p>
-            <p><span id="myname"> Rodrigo Sanchez |</span></p>
-            <p> WDD 230 Project |</p>
-            <p> Last Updated: <span id="lastmod"></span></p>
+            <p>&copy; <span id="currentYear"></span> Rexburg Chamber |<span id="myname"> Rodrigo Sanchez </span>| WDD 230
+                Project | Last Updated: <span id="lastmod"></span></p>
         </div>
+        <p id="weather-credit">Weather data courtesy of <a href="https://openweathermap.org">openweathermap.org</a> (no
+            affiliation), available through Creative Commons BY-SA 4.0 license.</p>
     </footer>
 
     <script src="js/script.js"></script>
