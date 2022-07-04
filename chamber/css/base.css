@@ -428,6 +428,17 @@ footer a {
     color: #f8f8f8
 }
 
+.footer-div {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.chamber-address h2 {
+    color: #f8f8f8;
+    padding-top: .5rem;
+}
+
 #weather-credit {
     text-align: center;
     color: #f8f8f8;

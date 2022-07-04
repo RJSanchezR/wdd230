@@ -168,25 +168,20 @@
         padding: .5rem 0;
     }
 
-    .footer-div {
-        height: 1px;
-        background-color: black;
-        width: auto;
-        grid-column: 1/3;
-    }
-
     .chamber-info {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         align-items: center;
+        padding: 0;
     }
 
-    .chamber-info figure {
-        grid-column: 1/2;
+    .footer-logo {
+        margin: 0 0 0 1rem;
     }
 
     .chamber-address {
-        grid-column: 2/3;
+        padding: .5rem 0;
     }
 
     #weather-credit{
