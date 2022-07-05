@@ -155,7 +155,7 @@
 
     footer img {
         justify-content: right;
-        width: min(100%, 120px);
+        width: min(100%, 100px);
         height: auto;
     }
 
