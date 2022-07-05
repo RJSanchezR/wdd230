@@ -245,15 +245,16 @@
     }
 
     .contact-us-form {
-        grid-column: 2/3;
+        grid-column: 1/3;
     }
 
     #contact-pic {
         grid-column: 2/3;
         grid-row: 1/4;
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: .5rem;
+        justify-self: left;
     }
 
     #visit-us{
