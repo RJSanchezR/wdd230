@@ -244,6 +244,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .contact-us-form {
+        grid-column: 2/3;
+    }
+
     #contact-pic {
         grid-column: 2/3;
         grid-row: 1/4;

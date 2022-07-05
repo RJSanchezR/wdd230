@@ -68,8 +68,9 @@
             <h1>Contact the Rexburg Chamber of Commerce</h1>
         </div>
         <div class="contact-us">
-            
-            <img id="contact-pic" src="images/chamber-front.webp" alt="The front side of the Rexburg Chamber of Commerce">
+
+            <img id="contact-pic" src="images/chamber-front.webp"
+                alt="The front side of the Rexburg Chamber of Commerce">
 
             <section id="visit-us" class="sec-contact">
                 <h2>Come Visit</h2>
@@ -87,14 +88,48 @@
                 <h2>Email Us</h2>
                 <a href="mailto:info@rexburgchamb.org">info@rexburgchamb.org</a>
             </section>
+
+            <form method="get" action="#" class="contact-us-form">
+                <fieldset class="contact-field">
+                    <legend>Contact Information</legend>
+    
+                    <label for="fname" class="required">First Name: </label>
+                    <input type="text" name="fname" id="fname" required placeholder="John">
+    
+                    <label for="lname" class="required">Last Name: </label>
+                    <input type="text" name="lname" id="lname" required placeholder="Doe">
+    
+                    <label for="userEmail" class="required">Email: (your_email@mail.com) </label>
+                    <input type="email" name="userEmail" id="userEmail" required placeholder="your_email@mail.com">
+    
+                    <label for="cellPhone" class="required">Cell Number: (123-456-7890)</label>
+                    <input type="tel" name="cellPhones" id="cellPhone" required placeholder="123-456-7890"
+                        pattern="\d{3}-\d{3}-\d{4}">
+    
+                </fieldset>
+    
+                <fieldset class="contact-field">
+                    <legend>Message</legend>
+    
+                    <label for="businessDescription" class="businessDescription">Any Questions, Concerns or Suggestions,
+                        please type them here</label>
+                    <textarea name="businessDescription" id="businessDescription" cols="29" rows="5"></textarea>
+    
+                    <input type="hidden" name="submissionDate" id="submissionDate" value="0">
+    
+                    <!-- the onclick causes the hidden field to send the date upon submission -->
+                    <input type="submit" value="Contact Us" class="joinSubmitBtn">
+                </fieldset>
+            </form>
         </div>
+
     </main>
 
     <footer class="grid-footer">
 
         <div class="chamber-info">
-            
-            <img class="footer-logo" src="images/logo.webp" alt="Rexburg Chamber of Commer logo"/>
+
+            <img class="footer-logo" src="images/logo.webp" alt="Rexburg Chamber of Commer logo" />
 
             <section class="chamber-address">
                 <h2>Rexburg Chamber of Commerce</h2>
@@ -110,15 +145,14 @@
         </div>
         <hr class="footer-div">
         <div class="my-info">
-            <p>&copy; <span id="currentYear"></span> Rexburg Chamber |<span id="myname"> Rodrigo Sanchez </span>| WDD 230
+            <p>&copy; <span id="currentYear"></span> Rexburg Chamber |<span id="myname"> Rodrigo Sanchez </span>| WDD
+                230
                 Project | Last Updated: <span id="lastmod"></span></p>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/weather.js"></script>
+    <script src="js/form2.js"></script>
 
 </body>
 

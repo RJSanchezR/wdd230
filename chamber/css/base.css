@@ -897,6 +897,10 @@ li label {
     padding: 1rem .2rem;
 }
 
+.contact-field legend {
+    text-align: left;
+}
+
 #contact-pic {
     width: 100%;
 }
