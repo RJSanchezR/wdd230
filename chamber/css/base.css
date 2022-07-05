@@ -464,6 +464,7 @@ footer a {
     color: black;
     background-color: #f8f8f8;
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 .discover-title {
@@ -545,6 +546,7 @@ picture img {
     color: black;
     background-color: #f8f8f8;
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 .join-title {
@@ -777,6 +779,7 @@ li label {
     text-align: center;
     color: black;
     background-color: #f8f8f8;
+    margin-bottom: 2rem;
 }
 
 .cards section {
