@@ -208,11 +208,13 @@
     }
 
     /* For the Thankyou page */
+    
     .thanks-title, .thanks-text {
         grid-column: 2/3;
     }
 
     /* For the Directory page */
+
     .lists .bisnes div {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

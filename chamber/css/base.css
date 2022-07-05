@@ -888,7 +888,7 @@ li label {
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
-    gap: .5rem;
+    gap: 1rem;
     text-align: center;
     color: black;
     font-size: 1.2rem;
@@ -897,7 +897,33 @@ li label {
     padding: 1rem .2rem;
 }
 
+#contact-pic {
+    width: 100%;
+}
 
+.sec-contact {
+    width: 50%;
+}
+
+.sec-contact h2 {
+    color: #f8f8f8;
+    background-color: #008F81;
+    padding: 1.2rem;
+    border-radius: 10px;
+}
+
+#visit-us p:first-of-type {
+    padding-top: 1rem;
+}
+
+#visit-us p:last-of-type {
+    padding-bottom: 1rem;
+}
+
+.sec-contact a {
+    display: block;
+    padding: 1rem;
+}
 
 
 @media only screen and (max-width: 600px) {
