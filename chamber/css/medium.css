@@ -5,6 +5,12 @@
         font-size: 1.125rem;
     }
     
+    main {
+        background-color: #f8f8f8;
+        color: black;
+        margin: auto;
+    }
+
     .grid-main {
         grid-template-columns: 1fr 1fr;
     }
