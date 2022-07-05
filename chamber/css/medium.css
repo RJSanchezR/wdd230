@@ -115,6 +115,11 @@
         justify-items: right;
     }
 
+    .sec-content p {
+        width: 90%;
+        padding: 1rem;
+    }
+
     #weather-credit{
         text-align: center;
         grid-column: 1/3;

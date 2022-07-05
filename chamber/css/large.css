@@ -193,6 +193,14 @@
         color: #f8f8f8;
     }
 
+    /* For the Discover */
+
+    .sec-content p {
+        max-width: 900px;
+        width: 90%;
+        padding: 1rem;
+    }
+
     /* For the Join page */
 
     form {
