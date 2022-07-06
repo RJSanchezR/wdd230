@@ -813,6 +813,11 @@ li label {
     margin: 1rem 0;
 }
 
+.directory-title h1 {
+    width: 100%;
+    height: auto;
+}
+
 .businessData {
     width: 100%;
     border: 1px solid black;
