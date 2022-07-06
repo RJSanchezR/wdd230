@@ -55,8 +55,8 @@ fetch(requestURL)
 
                 b1img.setAttribute('src', tempCompany[0]["imageurl"]);
                 b1img.setAttribute('alt', `The Logo of ${tempCompany[0]["name"]}`);
-                b1img.setAttribute('width', tempCompany[0]["width"])
-                b1img.setAttribute('height', tempCompany[0]["height"])
+                // b1img.setAttribute('width', tempCompany[0]["width"])
+                // b1img.setAttribute('height', tempCompany[0]["height"])
                 b1img.setAttribute('loading', 'lazy');
 
             } else if (counter == 2) {
@@ -73,8 +73,8 @@ fetch(requestURL)
 
                 b2img.setAttribute('src', tempCompany[0]["imageurl"]);
                 b2img.setAttribute('alt', `The Logo of ${tempCompany[0]["name"]}`);
-                b2img.setAttribute('width', tempCompany[0]["width"])
-                b2img.setAttribute('height', tempCompany[0]["height"])
+                // b2img.setAttribute('width', tempCompany[0]["width"])
+                // b2img.setAttribute('height', tempCompany[0]["height"])
                 b2img.setAttribute('loading', 'lazy');
 
             } else {
@@ -91,37 +91,10 @@ fetch(requestURL)
 
                 b3img.setAttribute('src', tempCompany[0]["imageurl"]);
                 b3img.setAttribute('alt', `The Logo of ${tempCompany[0]["name"]}`);
-                b3img.setAttribute('width', tempCompany[0]["width"])
-                b3img.setAttribute('height', tempCompany[0]["height"])
+                // b3img.setAttribute('width', tempCompany[0]["width"])
+                // b3img.setAttribute('height', tempCompany[0]["height"])
                 b3img.setAttribute('loading', 'lazy');
 
             };
         }
     });
-// let businessName = document.createElement('h2');
-// let logo = document.createElement('img');
-// let email = document.createElement('p');
-// let phone = document.createElement('a');
-// let website = document.createElement('a');
-
-// logo.className = 'businessImg';
-// card.className = 'businessData';
-// businessName.className = 'business-name';
-// address.className = 'business-add';
-// phone.className = 'business-phone';
-// website.className = 'business-website';
-
-//     businessName.textContent = `${business["name"]}`;
-//     email.textContent = `${business["email"]}`;
-//     phone.textContent = `${business["phone"]}`;
-//     website.textContent = `${business["website"]}`;
-
-//     logo.setAttribute('src', `${business["imageurl"]}`);
-//     logo.setAttribute('alt', `Logo of ${business["name"]}`);
-//     logo.setAttribute('loading', 'lazy');
-
-//     phone.setAttribute('href', `tel:${business["phone"]}`);
-
-//     website.setAttribute('href', `${business["website"]}`);
-//     website.setAttribute('target', "_blank");
-// }
