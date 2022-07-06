@@ -8,6 +8,8 @@
             "phone": 2083592871,
             "website": "https://freemanclothing.com/",
             "imageurl": "images/freeman-logo.webp",
+            "width": "295",
+            "height": "95",
             "email": "contact@freemanclothing.com",
             "moto": "You are how you look",
             "membership": "gold"
@@ -21,6 +23,8 @@
             "phone": 2083564455,
             "website": "https://www.johnadamsgmc.com/",
             "imageurl": "images/JohnAdamsGMC.webp",
+            "width": "317",
+            "height": "80",
             "email": "response@johnadamsgmc.com",
             "moto": "Getting you on the road",
             "membership": "gold"
@@ -34,6 +38,8 @@
             "phone": 2083564606,
             "website": "https://www.lesschwab.com",
             "imageurl": "images/LesSchwab-logo.webp",
+            "width": "640",
+            "height": "173",
             "email": "rexstore@lesschwab.com",
             "moto": "Always for you",
             "membership": "bronze"
@@ -48,6 +54,8 @@
             "phone": 2083560847,
             "website": "https://www.millhollowrestaurant.com/",
             "imageurl": "images/millhollow.webp",
+            "width": "544",
+            "height": "94",
             "email": "contact@millhollow.com",
             "moto": "Made with Love",
             "membership": "silver"
@@ -61,6 +69,8 @@
             "phone": 2085579495,
             "website": "https://rexburgcommons.com/",
             "imageurl": "images/Rex-Com-Header.webp",
+            "width": "1000",
+            "height": "200",
             "email": "questions@rexcom.com",
             "moto": "We got what you need",
             "membership": "silver"
@@ -74,6 +84,8 @@
             "phone": 2083592600,
             "website": "www.fatcatsfun.com/rexburg/",
             "imageurl": "images/fatcatsallblack.webp",
+            "width": "267",
+            "height": "188",
             "email": "rexburg@fatcats.com",
             "moto": "Let the fun begin",
             "membership": "bronze"
@@ -87,6 +99,8 @@
             "phone": 2083596900,
             "website": "https://madisonmemorial.org/",
             "imageurl": "images/MMHlogo.webp",
+            "width": "588",
+            "height": "100",
             "email": "info@mmh.com",
             "moto": "Caring is everything",
             "membership": "silver"
@@ -100,6 +114,8 @@
             "phone": 5003339532,
             "website": "https://www.righteousslice.com/",
             "imageurl": "images/righteousSlice.webp",
+            "width": "300",
+            "heigth": "90",
             "email": "contact@rslice.com",
             "moto": "Crust is always burnt",
             "membership": "gold"
@@ -113,6 +129,8 @@
             "phone": 2083598558,
             "website": "https://www.kiwanis.org/",
             "imageurl": "images/kiwanis-logo.webp",
+            "width": "408",
+            "height": "124",
             "email": "inquiries@kiwanis.com",
             "moto": "To serve you well",
             "membership": "NP"

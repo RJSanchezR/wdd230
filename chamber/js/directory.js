@@ -36,6 +36,8 @@ function displayBusiness(business) {
 
     logo.setAttribute('src', `${business["imageurl"]}`);
     logo.setAttribute('alt', `Logo of ${business["name"]}`);
+    logo.setAttribute('width', `${business["width"]}`)
+    logo.setAttribute('height', `${business["height"]}`)
     logo.setAttribute('loading', 'lazy');
 
     phone.setAttribute('href', `tel:${business["phone"]}`);

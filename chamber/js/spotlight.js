@@ -55,6 +55,8 @@ fetch(requestURL)
 
                 b1img.setAttribute('src', tempCompany[0]["imageurl"]);
                 b1img.setAttribute('alt', `The Logo of ${tempCompany[0]["name"]}`);
+                b1img.setAttribute('width', tempCompany[0]["width"])
+                b1img.setAttribute('height', tempCompany[0]["height"])
                 b1img.setAttribute('loading', 'lazy');
 
             } else if (counter == 2) {
@@ -71,6 +73,8 @@ fetch(requestURL)
 
                 b2img.setAttribute('src', tempCompany[0]["imageurl"]);
                 b2img.setAttribute('alt', `The Logo of ${tempCompany[0]["name"]}`);
+                b2img.setAttribute('width', tempCompany[0]["width"])
+                b2img.setAttribute('height', tempCompany[0]["height"])
                 b2img.setAttribute('loading', 'lazy');
 
             } else {
@@ -87,6 +91,8 @@ fetch(requestURL)
 
                 b3img.setAttribute('src', tempCompany[0]["imageurl"]);
                 b3img.setAttribute('alt', `The Logo of ${tempCompany[0]["name"]}`);
+                b3img.setAttribute('width', tempCompany[0]["width"])
+                b3img.setAttribute('height', tempCompany[0]["height"])
                 b3img.setAttribute('loading', 'lazy');
 
             };
