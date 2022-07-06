@@ -161,8 +161,8 @@ nav {
 
 .social-icon {
     margin: .5rem;
-    width: 4.8vh;
-    height: 4.8vh;
+    width: clamp(24px, 4.5vw, 64px);
+    height: clamp(24px, 4.5vw, 64px);
 }
 
 .date {
@@ -951,6 +951,20 @@ li label {
     padding: 1rem;
 }
 
+.wire {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.wire div img {
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    height: auto;
+    border: 5px solid #008F81;
+}
 
 @media only screen and (max-width: 600px) {
     .columns {

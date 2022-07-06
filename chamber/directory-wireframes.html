@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page containing wireframes for the Directory of the Rexburg Chamber Project" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+
+    <title>Wireframe Directory | WDD 230</title>
+</head>
+
+<body>
+    <header>
+        <div class="date"><span id="todayDate"></span></div>
+        <div class="logo">
+            <a class="logo-pic" href="index.html"><img src="images/logo.webp" alt="Rexburg Chamber of Commerce logo" width="256" height="256"/></a>
+            <a href="index.html" class="headings">
+                <section>
+                    <h2 class="header-title">REXBURG</h2>
+                    <h3 class="header-subtitle">Chamber of Commerce</h3>
+                </section>
+            </a>
+        </div>
+
+        <div class="ham">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><img class="social-icon" src="images/facebook-icon.webp"
+                    alt="Facebook" width="96" height="96"></a>
+            <a href="https://twitter.com" target="_blank"><img class="social-icon" src="images/twitter-icon.webp"
+                    alt="Twitter" width="96" height="96"></a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="directory-title">
+            <h1>Directory Wireframes</h1>
+        </div>
+        
+        <div  class="wire">
+            <div>
+                <img src="images/grid-small.png" alt="Wireframe for the Grid Small View" width="500" height="921">
+            </div>
+            <div>
+                <img src="images/grid-medium.png" alt="Wireframe for the Grid Medium View" width="761" height="1143">
+            </div>
+            <div>
+                <img src="images/grid-view.png" alt="Wireframe for the Grid Large View" width="1440" height="1024">
+            </div>
+            <div>
+                <img src="images/list-small.png" alt="Wireframe for the List Small View" width="500" height="921">
+            </div>
+            <div>
+                <img src="images/list-medium.png" alt="Wireframe for the List Medium View" width="760" height="1144">
+            </div>
+            <div>
+                <img src="images/list-view.png" alt="Wireframe for the List Large View" width="1440" height="1024">
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="grid-footer">
+
+        <div class="chamber-info">
+            
+            <img class="footer-logo" src="images/logo.webp" alt="Rexburg Chamber of Commer logo" width="256" height="256"/>
+
+            <section class="chamber-address">
+                <h2>Rexburg Chamber of Commerce</h2>
+                <p>167 W. Main St. Ste. 2</p>
+                <p>Rexburg, Idaho</p>
+            </section>
+        </div>
+
+        <div class="contact-info">
+            <p>info@rexburgchamb.org</p>
+            <p>+(208) 496-1411</p>
+            <a href="map" target="_blank">Location Map</a>
+        </div>
+        <hr class="footer-div">
+        <div class="my-info">
+            <p>&copy; <span id="currentYear"></span> Rexburg Chamber |<span id="myname"> Rodrigo Sanchez </span>| WDD 230
+                Project | Last Updated: <span id="lastmod"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
