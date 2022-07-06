@@ -654,7 +654,7 @@ form input:required:valid {
 }
 
 .joinSubmitBtn {
-    width: 50%;
+    width: 100%;
     justify-self: center;
     font-size: 1.5rem;
     font-weight: 999;
@@ -891,7 +891,7 @@ li label {
     gap: 1rem;
     text-align: center;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     border-radius: 10px 10px 0 0;
     padding: 1rem .2rem;
@@ -924,6 +924,7 @@ li label {
 
 #contact-pic {
     width: 100%;
+    height: auto;
 }
 
 .sec-contact {

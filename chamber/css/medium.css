@@ -103,6 +103,10 @@
         padding: .5rem 0;
     }
 
+    .joinSubmitBtn {
+        width: 50%;
+    }
+
     .chamber-info {
         display: flex;
         flex-direction: row;
@@ -121,6 +125,10 @@
     }
 
     /* For the Contact */
+
+    .contact-us {
+        font-size: 1.3rem;
+    }
 
     /* .contact-us {
         grid-template-columns: 1fr 1fr;
