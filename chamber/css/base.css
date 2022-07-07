@@ -811,6 +811,7 @@ li label {
     align-items: center;
     padding: .5rem;
     margin: 1rem 0;
+    max-width: 1400px;
 }
 
 .directory-title h1 {
