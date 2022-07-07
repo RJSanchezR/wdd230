@@ -103,6 +103,20 @@
         padding: .5rem 0;
     }
 
+    /* Directory */
+
+    #list-button {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    #grid-button {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
     .joinSubmitBtn {
         width: 50%;
     }

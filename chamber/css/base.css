@@ -865,15 +865,15 @@ li label {
 }
 
 #list-button {
-    width: 70%;
+    width: 80%;
     height: auto;
-    padding: .67rem .25rem;
+    padding: .5rem;
 }
 
 #grid-button {
-    width: 70%;
+    width: 80%;
     height: auto;
-    padding: .67rem .25rem;
+    padding: .5rem;
 }
 
 .businessImg {

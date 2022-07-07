@@ -253,6 +253,18 @@
         max-width:fit-content;
     }
 
+    #list-button {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    #grid-button {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
     /* For the contact */
 
     .contact-us {
