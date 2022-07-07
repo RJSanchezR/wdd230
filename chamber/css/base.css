@@ -486,7 +486,7 @@ footer a {
 
 .last-text {
     text-align: center;
-    color: #f8f8f8;
+    color: black;
     background-color: #008F81;
     padding: 1rem;
 }
@@ -653,7 +653,7 @@ form input:required:valid {
 }
 
 .grey label {
-    color: white;
+    color: #f8f8f8;
 }
 
 .required {
