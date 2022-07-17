@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #F8F8F8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* temple-inn-index */
+
+.hero-title {
+    color: #F8F8F8;
+}
+
+.hero-button {
+    color: #000000;
+    background-color: #F8F8F8;
+}
