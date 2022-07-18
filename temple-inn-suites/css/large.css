@@ -1,0 +1,35 @@
+@media screen and (min-width: 1001px) {
+
+    body {
+        font-size: 1.125rem;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex: 1 1 content;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    .navigation a {
+        color: #F8F8F8;
+    }
+
+    .navigation .active {
+        text-decoration: overline .2rem;
+        text-decoration-color: #000000;
+    }
+
+    .navigation li{
+        display: contents;
+    }
+
+    .logo {
+    margin-left: 2vw;
+    }
+}

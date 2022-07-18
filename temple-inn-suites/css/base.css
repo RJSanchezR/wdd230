@@ -19,6 +19,164 @@ h6 {
     font-family: 'Playfair Display', serif;
 }
 
+/* Header */
+
+header {
+    display: flex;
+    flex-direction:row;
+    color: #F8F8F8;
+    background-color: #425563;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+    margin-left: .5rem;
+    padding: 1.2rem 0; 
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.header-phone {
+    color: #F8F8F8;
+    text-decoration: none;
+    font-size: .7rem;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem 2rem;
+    text-align: left;
+    text-decoration: none;
+    color:  #000000;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navigation .active {
+    text-decoration: underline .2rem;
+    text-decoration-color: #F8F8F8;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* Responsive Hamburguer */
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F8F8F8;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.responsive .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.responsive .bar2 {
+    opacity: 0;
+}
+
+.responsive .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: #F8F8F8;
+    background-color: #425563;
+}
+
+.footer-logo {
+    align-items: center;
+    padding: 1.2rem 0; 
+}
+
+.footer-logo img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    align-self: center;
+}
+
+footer p {
+    font-size: .7rem;
+    padding: .2rem;
+}
+
+footer a {
+    color: #F8F8F8;
+    font-size: .7rem;
+    padding: .5rem;
+}
+
+.footer-address {
+    padding: 0;
+    margin: .5rem
+}
+
+.redes-footer {
+    padding: .5rem;
+}
+
+.footer-connected {
+    padding: .5rem 0;
+}
+
+.redes-footer img {
+    width: 100%;
+    height: auto;
+    max-width: 32px;
+    padding: 0 .2rem;
+}
+
+#weather-credit {
+    text-align: center;
+    color: #000000;
+    font-size: .7rem;
+}
+
+
+
+
 
 /* temple-inn-index */
 
