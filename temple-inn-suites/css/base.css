@@ -101,6 +101,7 @@ nav {
 .header-button {
     color: #F8F8F8;
     background-color: #BC2438;
+    font-size: .75rem;
     padding: .5rem 1rem;
     margin-bottom: .5rem;
     border: none;
@@ -171,7 +172,7 @@ nav {
     background-color: #BC2438;
     padding: .5rem 1rem;
     border: none;
-    font-size: .7rem;
+    font-size: 1rem;
 }
 
 

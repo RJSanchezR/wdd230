@@ -41,6 +41,7 @@
     } */
 
     .header-button {
+        font-size: 1rem;
         padding: 1rem 1.5rem;
         margin-bottom: .5rem;
         border: none;
@@ -53,12 +54,10 @@
     /* Main */
 
     .hero-title {
-        top: 45%;
         font-size: 5rem;
     }
 
     .hero-button {
-        top: 70%;
         padding: 1rem 2rem;
         font-size: 1.5rem;
     }
