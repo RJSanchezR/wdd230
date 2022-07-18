@@ -28,7 +28,7 @@ header {
     background-color: #425563;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
@@ -40,13 +40,9 @@ header {
 .logo img {
     width: 100%;
     height: auto;
+    min-width: 150px;
+    max-width: 150px;
     align-self: center;
-}
-
-.header-phone {
-    color: #F8F8F8;
-    text-decoration: none;
-    font-size: .7rem;
 }
 
 /* Navigation */
@@ -72,7 +68,6 @@ nav {
     text-align: left;
     text-decoration: none;
     color:  #000000;
-    font-weight: bold;
     transition: 0.5s;
 }
 
@@ -85,7 +80,37 @@ nav {
     display: block;
 }
 
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-phone {
+    margin: .5rem;
+}
+
+.header-phone a {
+    color: #F8F8F8;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: .5rem;
+}
+
+.header-button {
+    color: #F8F8F8;
+    background-color: #BC2438;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border: none;
+}
+
 /* Responsive Hamburguer */
+
+.ham {
+    padding: .5rem 1rem;
+}
 
 .bar1,
 .bar2,
@@ -109,6 +134,44 @@ nav {
 .responsive .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* temple-inn-index */
+
+.intro {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.hero-main {
+    position: relative;
+    display: flex;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #F8F8F8;
+    font-size: 2rem;
+}
+
+.hero-button {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: #F8F8F8;
+    background-color: #BC2438;
+    padding: .5rem 1rem;
+    border: none;
+    font-size: .7rem;
 }
 
 
@@ -153,7 +216,7 @@ footer a {
     margin: .5rem
 }
 
-.redes-footer {
+.footer-redes {
     padding: .5rem;
 }
 
@@ -161,7 +224,7 @@ footer a {
     padding: .5rem 0;
 }
 
-.redes-footer img {
+.footer-redes img {
     width: 100%;
     height: auto;
     max-width: 32px;
@@ -172,19 +235,4 @@ footer a {
     text-align: center;
     color: #000000;
     font-size: .7rem;
-}
-
-
-
-
-
-/* temple-inn-index */
-
-.hero-title {
-    color: #F8F8F8;
-}
-
-.hero-button {
-    color: #000000;
-    background-color: #F8F8F8;
 }

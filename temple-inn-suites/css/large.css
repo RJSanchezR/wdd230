@@ -4,14 +4,21 @@
         font-size: 1.125rem;
     }
 
-    .ham {
-        display: none;
+    .header-phone a {
+        font-size: 1.125rem;
+    }
+
+    .logo {
+        margin-left: 2vw;
+    }
+
+    .logo img {
+        max-width: 100%;
     }
 
     .navigation {
         display: flex;
         flex: 1 1 content;
-        list-style: none;
         padding: 0;
         justify-content: flex-end;
     }
@@ -29,7 +36,30 @@
         display: contents;
     }
 
-    .logo {
-    margin-left: 2vw;
+    /* .header-phone {
+        display: block;
+    } */
+
+    .header-button {
+        padding: 1rem 1.5rem;
+        margin-bottom: .5rem;
+        border: none;
+    }
+    
+    .ham {
+        display: none;
+    }
+
+    /* Main */
+
+    .hero-title {
+        top: 45%;
+        font-size: 5rem;
+    }
+
+    .hero-button {
+        top: 70%;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
     }
 }
