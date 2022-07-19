@@ -23,6 +23,10 @@
         font-size: 1rem;
     }
 
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+
     .temple-data {
         display: grid;
         grid-template-columns: 1fr 1fr;
