@@ -56,15 +56,15 @@
     .hero-title {
         font-size: 4rem;
         top: 10%;
-        left: 12%;
+        left: 10%;
     }
 
     .hero-button {
         padding: 1rem 2rem;
         font-size: 1.5rem;
         top: 65%;
-        left: 12%;
-    }
+        left: 10%;
+    }   
 
     .temple-section {
         display: grid;
@@ -93,7 +93,6 @@
         font-size: 1.25rem;
     }
     
-    
     .section-image {
         max-width: 810px;
         width: 100%;
@@ -114,6 +113,19 @@
 }
 
 @media screen and (min-width: 1200px) {
+
+    .hero-title {
+        font-size: 4rem;
+        top: 10%;
+        left: 12%;
+    }
+
+    .hero-button {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        top: 65%;
+        left: 12%;
+    }    
 
     .temples h2, h3 {
         padding: 1rem;
