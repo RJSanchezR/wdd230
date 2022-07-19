@@ -22,11 +22,11 @@ function displayTemples(temples) {
     let email = document.createElement('p');
     let basics2 = document.createElement('div');
     let servicesName = document.createElement('h3');
-    let services = document.createElement('p');
+    let services = document.createElement('ul');
     let basics3 = document.createElement('div');
     let operations = document.createElement('h3');
     let sessions = document.createElement('p');
-    let closure = document.createElement('p');
+    let closures = document.createElement('p');
     let basics4 = document.createElement('div');
     let historyName = document.createElement('h3');
     let history = document.createElement('p');
@@ -48,24 +48,41 @@ function displayTemples(temples) {
     services.className = 'temple-services';
     operations.className = 'temple-operations';
     sessions.className = 'temple-sessions';
-    closure.className = 'temple-closure';
+    closures.className = 'temple-closure';
     historyName.className = 'temple-historyN';
     history.className = 'temple-history';
     like.className = 'temple-like';
 
 
     templeName.textContent = `${temples["name"]}`;
+    
     info.textContent = `Information`;
     address.textContent = `Address: ${temples["address"]}`;
     phone.textContent = `Phone: ${temples["telephone"]}`;
     email.textContent = `Email: ${temples["email"]}`;
+
     servicesName.textContent = `Services`;
-    services.textContent = `${temples["services"]}`;
-    operations.textContent = `Operations`;
-    sessions.textContent = `${temples["sessions"]}`;
-    closure.textContent = `${temples["closure"]}`;
+    temples['services'].forEach(service => {
+        const li = document.createElement('li');
+        li.textContent = service;
+        services.appendChild(li);
+      });
+
+    operations.textContent = `Sessions/Closures`;
+    temples['sessions'].forEach(session => {
+        const li = document.createElement('li');
+        li.textContent = session;
+        sessions.appendChild(li);
+      });
+    temples['closures'].forEach(closure => {
+    const li = document.createElement('li');
+    li.textContent = closure;
+    closures.appendChild(li);
+    });
+
     historyName.textContent = `History`;
     history.textContent = `${temples["history"]}`;
+
 
     like.setAttribute('src', `${temples["like"]}`);
     like.setAttribute('alt', `Image of a like button`);
@@ -91,7 +108,7 @@ function displayTemples(temples) {
 
     basics3.appendChild(operations);
     basics3.appendChild(sessions);
-    basics3.appendChild(closure);
+    basics3.appendChild(closures);
 
     basics4.appendChild(historyName);
     basics4.appendChild(history);
