@@ -51,7 +51,7 @@
     }
     
     .resumen p {
-        font-size: 1rem;
+        font-size: .75rem;
     }
     
     .section-image {
@@ -67,14 +67,30 @@
     }
     
     .weather-section h2 {
-        padding: 1.5rem;
+        padding: 2rem;
         font-size: 2rem;
         text-decoration: overline #BC2438;
     }
 
+    .forecast-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    
+    .forecast-section h2 {
+        padding: 2rem;
+        font-size: 2rem;
+        text-decoration: overline #BC2438;
+        grid-column: 1/4;
+    }
 }
 
 @media screen and (min-width: 750px) and (max-width: 1200px) {
+
+    .resumen p {
+        font-size: 1rem;
+    }
 
     .temple-data {
         display: grid;
