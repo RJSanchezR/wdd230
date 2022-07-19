@@ -40,7 +40,7 @@ header {
 .logo img {
     width: 100%;
     height: auto;
-    min-width: 150px;
+    min-width: 100px;
     max-width: 150px;
     align-self: center;
 }
@@ -94,7 +94,7 @@ nav {
 .header-phone a {
     color: #F8F8F8;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: .7rem;
     padding: .5rem;
 }
 
@@ -141,8 +141,9 @@ nav {
 /* temple-inn-index */
 
 .intro {
-    max-width: 1200px;
+    max-width: 1400px;
     display: flex;
+    flex-direction: row;
     margin: auto;
 }
 
@@ -175,6 +176,56 @@ nav {
     font-size: 1rem;
 }
 
+/* Temples */
+
+.temples-main {
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.temples {
+    display: flex;
+    flex-direction: column;
+}
+
+.temples h1 {
+    font-size: .8rem;
+}
+
+.temples h2, h3 {
+    padding: .5rem;
+}
+
+.temple-data {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+    padding: .5rem;
+    margin: 1rem 0;
+    border: 2px solid #425563;
+    background-color: #C7DDF3;
+}
+
+.temple-data div p {
+    padding: .5rem;
+}
+
+.temple-img {
+    max-width: 810px;
+    width: 100%;
+    height: auto;
+}
+
+.temple-name {
+    text-align: center;
+}
+
+.temple-basics {
+    text-align: center;
+}
 
 /* Footer */
 

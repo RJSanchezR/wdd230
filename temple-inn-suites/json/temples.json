@@ -1,0 +1,58 @@
+{
+    "temples": [{
+            "name": "Mexico City Mexico Temple",
+            "image": "images/mexico-city-mexico.webp",
+            "width": "600",
+            "height": "552",
+            "address": "Avenida 510 no. 90, Colonia San Juan de Aragón 07950 Mexico City, Mexico",
+            "telephone": "(+52) 55-5003-3700",
+            "email": "Not Available",
+            "services": ["Clothing rental available", "NO cafeteria food served", "Patron housing available", "Distribution center nearby"],
+            "sessions": ["Tuesday to Friday Every hour from 9:00 am to 7:00 pm", "Saturday every hour and a half from 7:30 am to 6:00 pm"],
+            "closure": ["Saturday, 1 October 2022, Saturday", "24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022"],
+            "history": "The Mexico City Mexico Temple was the first temple built in Mexico and was the second temple built in a Spanish-speaking country, following the Santiago Chile Temple (1983). The Mexico City Mexico Temple is the largest temple outside of the United States."
+        },
+        
+        {
+            "name": "Idaho Falls Idaho Temple",
+            "image": "images/idaho-falls-idaho.webp",
+            "width": "600",
+            "height": "552",
+            "address": "1000 Memorial Dr, Idaho Falls ID 83402, United States",
+            "telephone": "(+1) 208-522-7669",
+            "email": "Not Available",
+            "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "sessions": "Tuesday to Saturday Every hour from 6:00 am to 8:00 pm",
+            "closure": ["Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+            "history": "The Idaho Falls Idaho Temple was the first temple built in Idaho and the only temple dedicated by President George Albert Smith. The design of the Idaho Falls Idaho Temple was inspired by a vision of an ancient Nephite temple beheld by architect John Fetzer, Sr., who had prayed for guidance."
+        },
+
+        {
+            "name": "Laie Hawaii Temple",
+            "image": "images/laie-hawaii.webp",
+            "width": "600",
+            "height": "552",
+            "address": "55-600 Naniloa Loop, Laie Hawaii 96762-1299 United States",
+            "telephone": "(+1) 808-293-2427",
+            "email": "Not Available",
+            "services": ["Clothing rental available", "NO cafeteria food served", "NO patron housing available", "Distribution center nearby"],
+            "sessions": ["Tuesday and Friday from 7:00 am to 9:30 am every 30 min - 5:00 pm to 8:00 pm every hour", "Thursday from 5:00 pm to 8:00 pm every hour", "Saturday from 7:00 am to 9:30 am every 30 min"],
+            "closure": ["Friday, 30 September 2022 (Limited Operations)", "Saturday, 1 October 2022", "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022 - Monday, 26 December 2022"],
+            "history": "The Laie Hawaii Temple was the first temple built in the Pacific islands (and in the state of Hawaii) and was the first temple 'brought to the people,' as it was the first temple built outside of the continental United States."
+        },
+
+        {
+            "name": "Washington D.C. Temple",
+            "image": "images/washington-dc.webp",
+            "width": "600",
+            "height": "552",
+            "address": "9900 Stoneybrook Drive, Kensington Maryland 20895, United States",
+            "telephone": "(+1) 301-588-0650",
+            "email": "Not Available",
+            "services": ["Clothing rental available", "NO cafeteria food served", "NO patron housing available", "Distribution center nearby"],
+            "sessions": ["Tuesday and Wednesday from 7:00 pm to 8:00 am every 30 min", "Thursday and Friday from 10:00 am to 8:00 pm every hour", "Saturday 7:00 am to 7:15 pm every 30 min"],
+            "closure": ["Temple is curretnly closed during renovation"],
+            "history": "The Washington D.C. Temple was the first temple built in the Eastern United States (and in Maryland) and the first temple to feature six spires since the construction of the Salt Lake Temple, which inspired the design. Soaring to a height of 288 feet, the Washington D.C. Temple is the tallest temple in the Church."
+        }
+    ]
+}
