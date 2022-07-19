@@ -105,6 +105,7 @@ nav {
     padding: .5rem 1rem;
     margin-bottom: .5rem;
     border: none;
+    cursor: pointer;
 }
 
 /* Responsive Hamburguer */
@@ -178,6 +179,7 @@ nav {
     padding: .5rem 1rem;
     border: none;
     font-size: .9rem;
+    cursor: pointer;
 }
 
 .temple-section {
@@ -194,19 +196,24 @@ nav {
     text-decoration-color: #BC2438;
 }
 
+.image-encase {
+    align-self: center;
+}
+
 .resumen {
     background-image: url('../images/gridDiagonalgray.png');
     background-color: #C7DDF3;
+    align-self: center;
 }
 
 .resumen h3 {
-    font-size: .75rem;
-    padding: .75rem;
+    font-size: .85rem;
+    padding: 1rem;
 }
 
 .resumen p {
-    font-size: .5rem;
-    padding:  0 1rem .5rem;
+    font-size: .75rem;
+    padding:  0 2rem 1.5rem;
 }
 
 .section-image {
@@ -330,6 +337,7 @@ nav {
     text-align: left;
 }
 
+
 /* Footer */
 
 footer {
@@ -339,7 +347,7 @@ footer {
     justify-items: center;
     align-items: center;
     text-align: center;
-    color: #F8F8F8;
+    color: #000000;
     background-color: #425563;
 }
 
@@ -402,6 +410,10 @@ footer a {
     height: auto;
     max-width: 32px;
     padding: 0 .2rem;
+}
+
+#myname {
+    color: #F8F8F8;
 }
 
 #weather-credit {
