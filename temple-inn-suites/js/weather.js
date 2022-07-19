@@ -11,7 +11,7 @@ const country_code = 'US';
 const appid = '6c4951197d9add3bbb5ef3b85302732f';
 const units = 'imperial';
 
-// const url = `${base_url}?q=${city_name},${state_code},${country_code}&units=${units}&appid=${appid}`;
+const url = `${base_url}?q=${city_name},${state_code},${country_code}&units=${units}&appid=${appid}`;
 
 
 fetch(url)

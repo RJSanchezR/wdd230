@@ -1,4 +1,4 @@
-// const forecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=19.432608&lon=-99.133209&exclude=current,hourly,minutely,alerts&units=imperial&appid=6c4951197d9add3bbb5ef3b85302732f";
+const forecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=19.432608&lon=-99.133209&exclude=current,hourly,minutely,alerts&units=imperial&appid=6c4951197d9add3bbb5ef3b85302732f";
 let forecastEl = document.getElementsByClassName("forecast-section");
 
 fetch(forecastURL)
