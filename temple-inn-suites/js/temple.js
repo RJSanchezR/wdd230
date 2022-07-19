@@ -30,6 +30,7 @@ function displayTemples(temples) {
     let basics4 = document.createElement('div');
     let historyName = document.createElement('h3');
     let history = document.createElement('p');
+    let like = document.createElement('img');
     
 
     card.className = 'temple-data';
@@ -50,6 +51,7 @@ function displayTemples(temples) {
     closure.className = 'temple-closure';
     historyName.className = 'temple-historyN';
     history.className = 'temple-history';
+    like.className = 'temple-like';
 
 
     templeName.textContent = `${temples["name"]}`;
@@ -64,6 +66,12 @@ function displayTemples(temples) {
     closure.textContent = `${temples["closure"]}`;
     historyName.textContent = `History`;
     history.textContent = `${temples["history"]}`;
+
+    like.setAttribute('src', `${temples["like"]}`);
+    like.setAttribute('alt', `Image of a like button`);
+    like.setAttribute('width', `${temples["like-width"]}`)
+    like.setAttribute('height', `${temples["like-height"]}`)
+    like.setAttribute('loading', `lazy`);
 
     image.setAttribute('src', `${temples["image"]}`);
     image.setAttribute('alt', `Image of the ${temples["name"]}`);
