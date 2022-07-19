@@ -195,6 +195,7 @@ nav {
 }
 
 .resumen {
+    background-image: url('../images/gridDiagonalgray.png');
     background-color: #C7DDF3;
 }
 
@@ -355,19 +356,37 @@ footer {
 }
 
 footer p {
-    font-size: .7rem;
+    font-size: .8em;
     padding: .2rem;
 }
 
 footer a {
     color: #F8F8F8;
-    font-size: .7rem;
+    font-size: .8em;
     padding: .5rem;
 }
 
 .footer-address {
     padding: 0;
     margin: .5rem
+}
+
+.footer-map {
+    align-items: center;
+}
+
+.footer-map a {
+    text-align: center;
+    font-size: 1.17em;
+    margin: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.real-map {
+    display: none;
+    padding: .5rem;
 }
 
 .footer-redes {
@@ -388,5 +407,5 @@ footer a {
 #weather-credit {
     text-align: center;
     color: #000000;
-    font-size: .7rem;
+    font-size: .8em;
 }

@@ -56,6 +56,19 @@
 
     </header>
     <main class="intro">
+        
+        <div class="weather-alert escondido">
+            <span onclick="this.parentElement.style.display='none'" class="displayAlert">&times;</span>
+            <p><span id="sender"></span></p>
+            <div class="alertDesc">
+                <p><span id="event">No Weather Alert Disregard this Message</span></p>
+                <p><span id="start"></span></p>
+                <p><span id="end"></span></p>
+            </div>
+            <p><span id="description"></span></p>
+            <p><span id="tags"></span></p>
+        </div>
+
         <article class="hero-main">
             <picture>
                 <img class="hero-image" src="images/home-hero-idaho-falls-temple.webp"
@@ -73,7 +86,7 @@
             <h2>Temples</h2>
             <div>
                 <img class="section-image" src="images/mexico-city-mexico.webp"
-                    alt="Temple of Idaho Falls with a cloudy background" width="1280" height="850">
+                    alt="Temple of Mexico City with in a sunny day" width="1080" height="720">
             </div>
             <section class="resumen">
                 <h3>Mexico City Mexico Temple</h3>
@@ -89,20 +102,44 @@
             <div>
                 <h3 class="weather-city">Rex City</h3>
                 <h3 class="weather-day">Today's Weather</h3>
-                <img class="weather-image" src="https://dummyimage.com/100X100/000/f8f8f8" alt="Temporary Image" width="100"
-                height="100">
+                <img class="weather-image" src="https://dummyimage.com/100X100/000/f8f8f8" alt="Temporary Image"
+                    width="100" height="100">
                 <p class="weather-desc"></p>
                 <p>Temperature: <span class="weather-temp"></span>65 &#176;F</p>
-                <p>Humidity: <span class="humidity"></span>38 %</p> 
+                <p>Humidity: <span class="humidity"></span>38 %</p>
             </div>
         </section>
         <section class="forecast-section">
             <h2>Forecast</h2>
         </section>
-        <section class="social-section"></section>
+        <section class="temple-section">
+            <h2>Information</h2>
+            <div class="resumen">
+                <h3>Our Commitment</h3>
+                <p>At Temple Inn & Suites we specialized in hotel accommodations near temple locations of The Church of
+                    Jesus Christ of Latter-day Saints around the world.</p>
+                <p>Our overall goal is to serve those who come to serve in the temple or who participate in events such
+                    as sealings, weddings, receptions, and youth trips. </p>
+            </div>
+            <div>
+                <img class="section-image" src="images/hotel-people.webp" alt="Staff members of Temple Inn & Suites"
+                    width="1080" height="720">
+            </div>
+        </section>
+        <section class="weather-section">
+            <h2>Keep In Touch</h2>
+            <div>
+                <a href="facebook.com" target="_blank"><img src="images/facebook-icon.webp" alt="Facebook Logo"
+                        width="96" height="96"></a>
+                <a href="instagram.com" target="_blank"><img src="images/gram.webp" alt="Instagram Logo" width="96"
+                        height="96"></a>
+                <a href="twitter.com" target="_blank"><img src="images/twitter-icon.webp" alt="Twitter Logo" width="96"
+                        height="96"></a>
+            </div>
+        </section>
     </main>
 
-    <footer class="">
+    <footer>
         <div class="footer-logo">
             <a class="logo-pic" href="index.html">
                 <img src="images/logo-longW2.svg" alt="Temple Inn and Suites Logo" width="400" height="100" />
@@ -114,7 +151,12 @@
         </div>
 
         <div class="footer-map">
-            <a href="map" target="_blank">Location Map</a>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2191.859103168453!2d-77.09640430058612!3d38.983208281815365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658231771221!5m2!1sen!2sus"
+                target="_blank">Headquarters Map</a>
+            <iframe class="real-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2191.859103168453!2d-77.09640430058612!3d38.983208281815365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658231771221!5m2!1sen!2sus"
+                width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="footer-redes">

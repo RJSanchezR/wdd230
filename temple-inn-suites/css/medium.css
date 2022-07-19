@@ -40,9 +40,9 @@
         text-decoration: overline #BC2438;
     }
     
-    .resumen {
+    /* .resumen {
         background-color: #C7DDF3;
-    }
+    } */
     
     .resumen p {
         font-size: .75rem;
@@ -78,6 +78,10 @@
         font-size: 2rem;
         text-decoration: overline #BC2438;
         grid-column: 1/4;
+    }
+
+    .real-map {
+        display: block;
     }
 }
 

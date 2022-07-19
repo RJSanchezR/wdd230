@@ -79,10 +79,10 @@
         text-decoration: overline #BC2438;
     }
 
-    .resumen {
+    /* .resumen {
         background-color: #C7DDF3;
         width: 100%;
-    }
+    } */
     
     .resumen h3 {
         font-size: 2rem;
@@ -123,6 +123,10 @@
         font-size: 2.75rem;
         text-decoration: overline #BC2438;
         grid-column: 1/4;
+    }
+
+    .real-map {
+        display: block;
     }
 }
 
