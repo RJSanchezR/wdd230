@@ -81,7 +81,7 @@
 
     .resumen {
         background-color: #C7DDF3;
-        padding: 1rem;
+        width: 100%;
     }
     
     .resumen h3 {
@@ -91,6 +91,7 @@
     
     .resumen p {
         font-size: 1.25rem;
+        padding: .5rem 1rem;
     }
     
     .section-image {
@@ -131,6 +132,10 @@
         font-size: 4rem;
         top: 10%;
         left: 12%;
+    }
+
+    .resumen p {
+        padding: .5rem 2rem;
     }
 
     .hero-button {
