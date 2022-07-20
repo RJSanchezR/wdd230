@@ -221,12 +221,12 @@ nav {
 }
 
 .resumen h3 {
-    font-size: .85rem;
+    font-size: 1.25rem;
     padding: 1rem;
 }
 
 .resumen p {
-    font-size: .75rem;
+    font-size: 1rem;
     padding:  0 2rem 1.5rem;
 }
 
@@ -350,6 +350,9 @@ nav {
 .temple-sessions, .temple-closure {
     text-align: left;
 }
+
+
+/* Reservations Page */
 
 
 /* Footer */

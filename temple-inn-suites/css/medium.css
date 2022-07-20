@@ -43,10 +43,10 @@
     /* .resumen {
         background-color: #C7DDF3;
     } */
-    
-    .resumen p {
-        font-size: .75rem;
-        padding:  0 2rem 1.5rem;
+
+    .resumen h3 {
+        font-size: 1.5rem;
+        padding: 1rem;
     }
     
     .section-image {
@@ -87,14 +87,9 @@
 
 @media screen and (min-width: 750px) and (max-width: 1200px) {
 
-    .resumen h3 {
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-
-    .resumen p {
+    /* .resumen p {
         font-size: 1rem;
-    }
+    } */
 
     .temple-data {
         display: grid;
