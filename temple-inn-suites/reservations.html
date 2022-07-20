@@ -30,8 +30,8 @@
 
         <nav>
             <ul class="navigation">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservations.html" class="active">Reservations</a></li>
                 <li><a href="temples.html">Temples</a></li>
                 <li><a href="services/index.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -57,7 +57,64 @@
     </header>
 
     <main>
-        
+        <h1>Stay with Us</h1>
+
+        <form action="confirmation.html" autocomplete="off" class="form">
+            <fieldset>
+
+                <legend>Your little Heaven</legend>
+                <div>
+                    <label for="dest">Destination</label>
+                    <select name="dest" id="dest" size="3" required>
+                        <option>Mexico City, Mexico</option>
+                        <option>Idaho Falls, Idaho</option>
+                        <option>Laie, Hawaii</option>
+                        <option>Washingtong, D.C.</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Check-In
+                        <input type="date" name="dates" id="check-in" required>
+                    </label>    
+                    <label>Check-In
+                        <input type="date" name="dates" id="check-out" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Rooms
+                        <input type="number" id="room" required>
+                    </label>
+                    <label>Adults
+                        <input type="number" id="adults" required>
+                    </label>
+                    <label>Kids
+                        <input type="number" id="kids">
+                    </label>
+                </div>
+                <div>
+                    <label>Suite Type
+                        <select name="suite" id="suite" required>
+                            <option value="">Choose your Room</option>
+                            <option value="single">Single Cloud</option>
+                            <option value="double">Double Cloud</option>
+                            <option value="deluxe">Heaven Suite</option>
+                        </select>
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Tell Us About Yourself</legend>
+                    <label class="sub">First Name 
+                        <input type="text" required>
+                    </label>
+                    <label class="sub">Last Name 
+                        <input type="text" required>
+                    </label>
+                    <label class="sub">Email
+                        <input type="email" required>
+                    </label>
+            </fieldset>
+        </form>
     </main>
 
     <footer>

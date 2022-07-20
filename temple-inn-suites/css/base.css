@@ -68,12 +68,16 @@ nav {
     text-align: left;
     text-decoration: none;
     color:  #000000;
-    transition: 0.5s;
 }
 
 .navigation .active {
     text-decoration: underline .2rem;
     text-decoration-color: #F8F8F8;
+}
+
+.navigation a:hover {
+    text-decoration: overline .2rem;
+    text-decoration-color: #BC2438;
 }
 
 .responsive li {
@@ -106,6 +110,12 @@ nav {
     margin-bottom: .5rem;
     border: none;
     cursor: pointer;
+}
+
+.header-button:hover, .hero-button:hover {
+    color: #000000;
+    background-color: #C7DDF3;
+    transition: .5s;
 }
 
 /* Responsive Hamburguer */
@@ -146,6 +156,10 @@ nav {
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+.escondido {
+    display: none;
 }
 
 .hero-main {
