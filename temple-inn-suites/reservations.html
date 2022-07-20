@@ -25,7 +25,7 @@
     <header>
 
         <a class="logo" href="index.html">
-            <img src="images/logo-longW2.svg" alt="Temple Inn and Suites Logo" width="400" height="100" />
+            <img src="images/1a.svg" alt="Temple Inn and Suites Logo" width="400" height="100" />
         </a>
 
         <nav>
@@ -56,65 +56,116 @@
 
     </header>
 
-    <main>
-        <h1>Stay with Us</h1>
+    <main class="intro">
+        <article class="hero-main">
+            <picture>
+                <img class="hero-image" src="images/home-hero-mount-timpanogos-temple.webp"
+                    alt="The Mount Timpanogos Temple of The Church of Jesus Christ of Latter-day Saints, with cloudy background."
+                    width="1100" height="450">
+            </picture>
 
-        <form action="confirmation.html" autocomplete="off" class="form">
-            <fieldset>
+            <h1 class="hero-title">Make a Reservation</h1>
 
-                <legend>Your little Heaven</legend>
-                <div>
-                    <label for="dest">Destination</label>
-                    <select name="dest" id="dest" size="3" required>
-                        <option>Mexico City, Mexico</option>
-                        <option>Idaho Falls, Idaho</option>
-                        <option>Laie, Hawaii</option>
-                        <option>Washingtong, D.C.</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Check-In
-                        <input type="date" name="dates" id="check-in" required>
-                    </label>    
-                    <label>Check-In
-                        <input type="date" name="dates" id="check-out" required>
-                    </label>
-                </div>
-                <div>
-                    <label>Rooms
-                        <input type="number" id="room" required>
-                    </label>
-                    <label>Adults
-                        <input type="number" id="adults" required>
-                    </label>
-                    <label>Kids
-                        <input type="number" id="kids">
-                    </label>
-                </div>
-                <div>
-                    <label>Suite Type
-                        <select name="suite" id="suite" required>
-                            <option value="">Choose your Room</option>
-                            <option value="single">Single Cloud</option>
-                            <option value="double">Double Cloud</option>
-                            <option value="deluxe">Heaven Suite</option>
+        </article>
+
+        <div class="temple-section">
+            <form method="get" action="confirmation.html" autocomplete="off" class="form">
+
+                <fieldset>
+                    <legend>Stay with Us</legend>
+                    <div>
+                        <label for="dest">Destination</label>
+                        <select name="dest" id="dest" required>
+                            <option value="">Choose your Location</option>
+                            <option>Mexico City, Mexico</option>
+                            <option>Idaho Falls, Idaho</option>
+                            <option>Laie, Hawaii</option>
+                            <option>Washingtong, D.C.</option>
                         </select>
-                    </label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Tell Us About Yourself</legend>
-                    <label class="sub">First Name 
-                        <input type="text" required>
-                    </label>
-                    <label class="sub">Last Name 
-                        <input type="text" required>
-                    </label>
-                    <label class="sub">Email
-                        <input type="email" required>
-                    </label>
-            </fieldset>
-        </form>
+                    </div>
+                    <div>
+                        <label>Check-In
+                            <input type="date" name="dates" id="check-in" required>
+                        </label>
+                        <label>Check-In
+                            <input type="date" name="dates" id="check-out" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Rooms
+                            <input type="number" id="room" required>
+                        </label>
+                        <label>Adults
+                            <input type="number" id="adults" required>
+                        </label>
+                        <label>Kids
+                            <input type="number" id="kids">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Suite Type
+                            <select name="suite" id="suite" required>
+                                <option value="">Choose your Room</option>
+                                <option value="single">Single Cloud</option>
+                                <option value="double">Double Cloud</option>
+                                <option value="deluxe">Heaven Suite</option>
+                            </select>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tell Us About Yourself</legend>
+                    <div>
+                        <label class="sub">First Name
+                            <input type="text" required placeholder="John">
+                        </label>
+                        <label class="sub">Last Name
+                            <input type="text" required placeholder="Doe">
+                        </label>
+                    </div>
+                    <div>
+                        <label class="sub">Email
+                            <input type="email" required placeholder="your_email@mail.com">
+                        </label>
+                        <label class="required">Phone Number
+                            <input type="tel" required placeholder="123-456-7890" pattern="\d{3}-\d{3}-\d{4}">
+                        </label>
+                    </div>
+                    <div>
+                        <label class="sub">Select or type in Your Country:
+                            <input type="text" list="code" name="countryCode" placeholder="United States/Mexico" required>
+                            <datalist id="code">
+                                <option>United States</option>
+                                <option>Mexico</option>
+                                <option>Canada</option>
+                                <option>Brazil</option>
+                                <option>England</option>
+                                <option>France</option>
+                                <option>Germany</option>
+                                <option>Italy</option>
+                                <option>Japan</option>
+                                <option>Australia</option>
+                            </datalist>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="top">Special Services</legend>
+                    <div>
+                        <label class="sub">Anything you need
+                            <textarea name="accommodation" rows="5" cols="33"
+                                placeholder="Special Accommodations/Requests"></textarea>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <input type="hidden" id="date" name="date" value="CurrentTime">
+                <input type="hidden" id="time" name="time" value="CurrentDate">
+                <input type="submit" value="Confirm your Reservation" class="header-button">
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -129,7 +180,7 @@
         </div>
 
         <div class="footer-map">
-            <a href="map" target="_blank">Location Map</a>
+            <a href="https://goo.gl/maps/dtd4C6V8exDmj5EH7" target="_blank">Location Map</a>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2191.859103168453!2d-77.09640430058612!3d38.983208281815365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658231771221!5m2!1sen!2sus"
                 width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"

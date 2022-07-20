@@ -125,6 +125,10 @@
         grid-column: 1/4;
     }
 
+    .lower {
+        width: 50%;
+    }
+
     .real-map {
         display: block;
     }

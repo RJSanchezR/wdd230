@@ -250,16 +250,26 @@ nav {
     text-decoration-color: #BC2438;
 }
 
+/* .weather-section div {
+    border: 1px solid #000000;
+    margin: 0 .5rem .5rem;
+    padding-bottom: 1rem;
+} */
+
 .weather-section div p {
     text-transform: capitalize;
 }
 
 .weather-city {
-    padding: 0 1.5rem .25rem 1.5rem;
+    padding: 1.5rem 1.5rem .25rem 1.5rem;
 }
 
 .weather-day {
-    padding: .25rem 1.5rem 1.5rem 1.5rem;
+    padding: .25rem 1.5rem .5rem 1.5rem;
+}
+
+.weather-image {
+    background-color: #425563;
 }
 
 .forecast-section {
@@ -275,6 +285,13 @@ nav {
     text-decoration-line: overline;
     text-decoration-color: #BC2438;
 }
+
+.forecast-section div {
+    border: 1px solid #000000;
+    margin: 0 .5rem .5rem;
+    padding-bottom: 1rem;
+}
+
 
 .forecast-section div p {
     text-transform: capitalize;
@@ -351,8 +368,33 @@ nav {
     text-align: left;
 }
 
+.keep-redes img {
+    max-width: 64px;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
 
 /* Reservations Page */
+
+/* Missionaries Page */
+
+.resumen ul {
+    list-style: none;
+    padding: 0 0 1.5rem;
+}
+
+.resumen li {
+    padding: .3rem;
+}
+
+.lower {
+    margin: auto;
+    text-transform: none;
+    background-image: none;
+    background-color: #F8F8F8;
+}
 
 
 /* Footer */
@@ -364,7 +406,7 @@ footer {
     justify-items: center;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: #F8F8F8;
     background-color: #425563;
 }
 

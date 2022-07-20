@@ -80,6 +80,10 @@
         grid-column: 1/4;
     }
 
+    .lower {
+        width: 75%;
+    }
+
     .real-map {
         display: block;
     }
