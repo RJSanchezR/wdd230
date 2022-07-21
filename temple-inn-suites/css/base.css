@@ -460,9 +460,15 @@ form input:required:valid {
 
 .lower {
     margin: auto;
-    text-transform: none;
     background-image: none;
     background-color: #F8F8F8;
+}
+
+/* Receptions */
+
+.weddingP {
+    font-size: 1rem;
+    padding: 2.5rem;
 }
 
 
