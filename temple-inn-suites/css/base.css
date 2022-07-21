@@ -382,6 +382,71 @@ nav {
 
 /* Reservations Page */
 
+label {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+}
+
+legend {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration-line: overline;
+    text-decoration-color: #BC2438;
+    padding: 1rem;
+    color: #000000;
+}
+
+form label {
+    padding: 1rem 0;
+}
+
+form label,
+form input {
+    display: block;
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+form input {
+    margin-top: 2px;
+    margin-bottom: 1em;
+    /* size for small view */
+    padding: .75rem;
+}
+
+label input {
+    display: block;
+    width: auto;
+    margin: 0;
+}
+
+select {
+    display: block;
+    padding: .5rem;
+    
+}
+
+form label.required::after {
+    content: " *";
+    color: red;
+}
+
+form input:required:invalid {
+    background-color: rgba(255, 0, 0, 0.111);
+}
+
+form input:required:valid {
+    background-color: rgba(0, 128, 0, 0.011);
+}
+
 /* Missionaries Page */
 
 .resumen ul {

@@ -68,7 +68,71 @@
 
         </article>
 
-        <div class="temple-section">
+        <section class="forecast-section">
+            <div>
+                <h2>Single Cloud</h2>
+
+                <div class="image-encase">
+                    <img class="section-image" src="images/singlebed-room.webp" alt="Long-term Room wihthout Oven"
+                        width="1080" height="720">
+                </div>
+
+                <div class="resumen">
+                    <h3>Ready for You</h3>
+                    <ul>
+                        <li>1 Queen size bed</li>
+                        <li>Coffee maker / tea service</li>
+                        <li>Sofa with hide a bed</li>
+                        <li>Shower</li>
+                        <li>Desk with chair and lamp</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <h2>Double Cloud</h2>
+
+                <div class="image-encase">
+                    <img class="section-image" src="images/doublebed-room.webp" alt="Long-term Room wihthout Oven"
+                        width="1080" height="720">
+                </div>
+
+                <div class="resumen">
+                    <h3>Double the Fun</h3>
+                    <ul>
+                        <li>2 Queen size beds</li>
+                        <li>Mini-refrigerator</li>
+                        <li>Chair, with ottoman</li>
+                        <li>Hair dryer</li>
+                        <li>Shower/Tub combination</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <h2>Heaven Suite</h2>
+
+                <div class="image-encase">
+                    <img class="section-image" src="images/extra-room.webp" alt="Long-term Room wihthout Oven"
+                        width="1080" height="720">
+                </div>
+
+                <div class="resumen">
+                    <h3>More to Enjoy</h3>
+                    <ul>
+                        <li>1 King size bed</li>
+                        <li>Kitchenette area</li>
+                        <li>Deck/balcony with table and chairs</li>
+                        <li>Living room area</li>
+                        <li>Jacuzzi Tub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="weather-section centered">
             <form method="get" action="confirmation.html" autocomplete="off" class="form">
 
                 <fieldset>
@@ -103,14 +167,13 @@
                         </label>
                     </div>
                     <div>
-                        <label>Suite Type
-                            <select name="suite" id="suite" required>
-                                <option value="">Choose your Room</option>
-                                <option value="single">Single Cloud</option>
-                                <option value="double">Double Cloud</option>
-                                <option value="deluxe">Heaven Suite</option>
-                            </select>
-                        </label>
+                        <label>Suite Type</label>
+                        <select name="suite" id="suite" required>
+                            <option value="">Choose your Room</option>
+                            <option value="single">Single Cloud</option>
+                            <option value="double">Double Cloud</option>
+                            <option value="deluxe">Heaven Suite</option>
+                        </select>
                     </div>
                 </fieldset>
 
@@ -152,12 +215,11 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend class="top">Special Services</legend>
+                    <legend class="top">Special Requests</legend>
                     <div>
-                        <label class="sub">Anything you need
-                            <textarea name="accommodation" rows="5" cols="33"
-                                placeholder="Special Accommodations/Requests"></textarea>
-                        </label>
+                        <label>Anything you need</label>
+                        <textarea name="accommodation" rows="5" cols="30"
+                        placeholder="Special accommodations/requests"></textarea>
                     </div>
                 </fieldset>
 
@@ -166,69 +228,6 @@
                 <input type="submit" value="Confirm your Reservation" class="header-button">
             </form>
         </div>
-
-        <section class="forecast-section">
-
-            <div>
-                <h2>Standard Room</h2>
-
-                <div class="image-encase">
-                    <img class="section-image" src="images/singlebed-room.webp" alt="Long-term Room wihthout Oven"
-                        width="1080" height="720">
-                </div>
-
-                <div class="resumen">
-                    <h3>All you need</h3>
-                    <p>Our extra comfortable starting room comes with:</p>
-                    <ul>
-                        <li>Full-size Kitchenette</li>
-                        <li>Full-size sofa and coffe table</li>
-                        <li>Desk with chair and reading lamp</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div>
-                <h2>Double Room</h2>
-
-                <div class="image-encase">
-                    <img class="section-image" src="images/doublebed-room.webp" alt="Long-term Room wihthout Oven"
-                        width="1080" height="720">
-                </div>
-
-                <div class="resumen">
-                    <h3>Full of perks</h3>
-                    <p>Along with all the perks from the Essencials Room, the Full-size comes with:</p>
-                    <ul>
-                        <li>Full-size Oven</li>
-                        <li>Full-size living room</li>
-                        <li>Breakfast bar and 2 stools</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div>
-                <h2>Deluxe Room</h2>
-
-                <div class="image-encase">
-                    <img class="section-image" src="images/extra-room.webp" alt="Long-term Room wihthout Oven"
-                        width="1080" height="720">
-                </div>
-
-                <div class="resumen">
-                    <h3>Ultimate Comfort</h3>
-                    <p>Along with all the perks from the Full-size Room, the Ultimate comes with:</p>
-                    <ul>
-                        <li>Full-size dinning room with table and chairs</li>
-                        <li>A deck/balcony with table and chairs</li>
-                        <li>2 bathrooms</li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
     </main>
 
     <footer>
