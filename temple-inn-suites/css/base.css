@@ -171,7 +171,7 @@ nav {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 2rem;
+    margin: 2rem auto;
 }
 
 .hero-image {
@@ -280,7 +280,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    margin: .5rem 0;
+    margin: 2rem 0;
 }
 
 .forecast-section h2 {
@@ -395,7 +395,7 @@ legend {
     font-weight: bold;
     text-decoration-line: overline;
     text-decoration-color: #BC2438;
-    padding: 1rem;
+    padding: 2.5rem 1rem 1rem;
     color: #000000;
 }
 
@@ -409,7 +409,7 @@ form input {
     width: 100%;
 }
 
-form {
+.form {
     width: 90%;
     max-width: 600px;
     margin: 10px auto;
@@ -424,14 +424,14 @@ form input {
 
 label input {
     display: block;
-    width: auto;
+    width: 100%;
     margin: 0;
 }
 
 select {
     display: block;
+    width: 100%;
     padding: .5rem;
-    
 }
 
 form label.required::after {
