@@ -133,6 +133,11 @@
         width: 50%;
     }
 
+    .services {
+        width: 50%;
+        justify-self: center;
+    }
+
     .weddingP {
         font-size: 1.5rem;
         text-decoration: none;
@@ -195,5 +200,10 @@
 
     .temple-basics4 {
         grid-column: 1/5;
+    }
+
+    .weddingA a {
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 }

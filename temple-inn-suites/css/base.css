@@ -468,11 +468,6 @@ textarea {
 
 /* Services */
 
-.services {
-    background-image: none;
-    background-color: #F8F8F8;
-}
-
 /* Missionaries Page */
 
 .resumen ul {
@@ -495,13 +490,23 @@ textarea {
 .weddingP {
     font-size: 1rem;
     padding: 2.5rem;
+
+}
+
+.weddingA {
+    margin: 1rem auto;
+}
+
+.weddingA div {
+    margin: 1rem;
 }
 
 .weddingA a {
-    font-size: 1.5rem;
-    padding: 2.5rem;
+    font-size: 1rem;
+    padding: .5rem;
     text-decoration: none;
-    color: #000000;
+    color: #F8F8F8;
+    background-color: #BC2438;
 }
 
 /* Footer */
