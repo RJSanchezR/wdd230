@@ -155,7 +155,7 @@ nav {
     max-width: 1400px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .escondido {
@@ -171,7 +171,7 @@ nav {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin: 2rem auto;
+    margin: auto;
 }
 
 .hero-image {
@@ -231,7 +231,10 @@ nav {
 
 .resumen p {
     font-size: 1rem;
-    padding:  0 2rem 1.5rem;
+}
+
+.resumen a {
+    text-decoration: none;
 }
 
 .section-image {
@@ -434,24 +437,32 @@ select {
     padding: .5rem;
 }
 
-form label.required::after {
-    content: " *";
-    color: red;
-}
-
 form input:required:invalid {
-    background-color: rgba(255, 0, 0, 0.111);
+    background-color: rgba(255, 0, 0, 0.049);
 }
 
 form input:required:valid {
     background-color: rgba(0, 128, 0, 0.011);
 }
 
+.submit-button {
+    color: #F8F8F8;
+    background-color: #BC2438;
+    width: 50%;
+    justify-self: center;
+    text-align: center;
+    font-size: .75rem;
+}
+
+textarea {
+    width: 100%;
+}
+
 /* Missionaries Page */
 
 .resumen ul {
     list-style: none;
-    padding: 0 0 1.5rem;
+    padding: 1rem;
 }
 
 .resumen li {

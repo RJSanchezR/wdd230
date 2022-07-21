@@ -91,7 +91,7 @@
     
     .resumen p {
         font-size: 1.25rem;
-        padding:  0 2rem 1.5rem;
+        padding: .3rem;
     }
     
     .section-image {
@@ -125,6 +125,10 @@
         grid-column: 1/4;
     }
 
+    .submit-button {
+        font-size: 1.75rem;
+    }
+
     .lower {
         width: 50%;
     }
@@ -144,10 +148,6 @@
         font-size: 4rem;
         top: 10%;
         left: 12%;
-    }
-
-    .resumen p {
-        padding:  0 2rem 1.5rem;
     }
 
     .hero-button {
