@@ -162,6 +162,10 @@ nav {
     display: none;
 }
 
+.alert-desc {
+    list-style: none;
+}
+
 .hero-main {
     position: relative;
     display: flex;

@@ -7,14 +7,14 @@ const alertBanner = document.querySelector('.weather-alert');
 
 
 
-const forecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=19.432608&lon=-99.133209&exclude=current,hourly,minutely,alerts&units=imperial&appid=6c4951197d9add3bbb5ef3b85302732f";
+const forecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=19.432608&lon=-99.133209&exclude=hourly,minutely&units=imperial&appid=6c4951197d9add3bbb5ef3b85302732f";
 let forecastEl = document.getElementsByClassName("forecast-section");
 
 fetch(forecastURL)
     .then((response) => response.json())
     .then((data) => {
 
-        if(data.alerts != undefined){
+        if(data.alerts){
             const header = document.createElement('h3');  
             document.querySelector('.weather-alert').appendChild(header);
             const senderName = data.alerts[0].sender_name;
@@ -22,8 +22,16 @@ fetch(forecastURL)
             const startDate = data.alerts[0].start;
             const endDate =  data.alerts[0].end;
             const weatherDesc = data.alerts[0].description;
-            const sd = new Date(startDate);
-            const ed = new Date(endDate);
+            const sd = Date(startDate);
+            const ed = Date(endDate);
+
+            const myArray = weatherDesc.split("*");
+            myArray.forEach((value) => {
+                let lines = document.createElement('li');
+                lines.textContent = value;
+                
+                expl.appendChild(lines);
+            });
         
             sd.toDateString;
             ed.toDateString;
@@ -33,7 +41,7 @@ fetch(forecastURL)
             myevent.textContent = weatherEvent;
             start.textContent = sd;
             end.textContent = ed;
-            expl.textContent = weatherDesc;
+
         }
         else {
             alertBanner.classList.toggle('escondido');
