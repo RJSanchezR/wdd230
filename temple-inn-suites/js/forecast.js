@@ -82,6 +82,8 @@ fetch(forecastURL)
 
                 img.setAttribute('src', `${icon}`);
                 img.setAttribute('alt', `${desc}`);
+                img.setAttribute('width', '100');
+                img.setAttribute('height', '100');
 
 
                 card.appendChild(city);
