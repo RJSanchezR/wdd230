@@ -260,7 +260,7 @@ nav {
     padding-bottom: 1rem;
 } */
 
-.weather-section div p {
+.weather-div p {
     text-transform: capitalize;
 }
 
