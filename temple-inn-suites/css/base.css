@@ -207,6 +207,16 @@ nav {
     margin: .5rem 0;
 }
 
+.temple-select {
+    justify-self: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.temple-select option {
+    width: 100%;
+}
+
 .temple-section h2 {
     padding: 2rem;
     font-size: 2rem;
@@ -285,6 +295,7 @@ nav {
 
 .weather-image {
     background-color: #425563;
+    border-radius: 50%;
 }
 
 .forecast-section {
